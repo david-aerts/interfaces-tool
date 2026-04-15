@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: models-sanctionPaginated-sanctionPaginated
+title: sanctionPaginated
+description: List of sanctions, paginated as per request
+type: object
+additionalProperties: false
+required:
+- page
+- pageSize
+- totalElements
+- content
+properties:
+  page:
+    $ref: ../filterRequest/page.schema.yaml
+  pageSize:
+    $ref: ../filterRequest/pageSize.schema.yaml
+  totalElements:
+    $ref: ../../common/totalElements.schema.yaml
+  content:
+    $ref: ./content.schema.yaml

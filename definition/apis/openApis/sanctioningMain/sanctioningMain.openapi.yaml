@@ -13,14 +13,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: ../../../../publication/schemas/filterRequest/filterRequest_vX.schema.json
+              $ref: ../../../../publication/schemas/filterRequest/filterRequest.schema.json
       responses:
         '200':
           description: Paginated enforcement records found.
           content:
             application/json:
               schema:
-                $ref: ../../../../publication/schemas/enforcementRecordPaginated/enforcementRecordPaginated_vX.schema.json
+                $ref: ../../../../publication/schemas/enforcementRecordPaginated/enforcementRecordPaginated.schema.json
   /enforcement-record/{passageId}:
     get:
       summary: Get enforcement record details by passageId
@@ -39,7 +39,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../../../../publication/schemas/enforcementRecord/enforcementRecord_vX.schema.json
+                $ref: ../../../../publication/schemas/enforcementRecord/enforcementRecord.schema.json
         '404':
           description: No enforcement record found for the given passageId.
   /breaches/filtered:
@@ -51,14 +51,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: ../../../../publication/schemas/filterRequest/filterRequest_vX.schema.json
+              $ref: ../../../../publication/schemas/filterRequest/filterRequest.schema.json
       responses:
         '200':
           description: Paginated breaches found.
           content:
             application/json:
               schema:
-                $ref: ../../../../publication/schemas/breachPaginated/breachPaginated_vX.schema.json
+                $ref: ../../../../publication/schemas/breachPaginated/breachPaginated.schema.json
   /breach/{passageId}:
     get:
       summary: Get breach details by passageId
@@ -77,6 +77,44 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../../../../publication/schemas/breach/breach_vX.schema.json
+                $ref: ../../../../publication/schemas/breach/breach.schema.json
         '404':
           description: No breach found for the given id.
+  /sanctions/filtered:
+    post:
+      summary: Get Sanctions with advanced sorting and filtering.
+      operationId: getSanctionsList
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: ../../../../publication/schemas/filterRequest/filterRequest.schema.json
+      responses:
+        '200':
+          description: Paginated sanctions found.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/sanctionPaginated/sanctionPaginated.schema.json
+  /sanction/{passageId}:
+    get:
+      summary: Get sanction details by passageId
+      operationId: getSanctiondById
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Sanction identifier.
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Sanction details.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/sanction/sanction.schema.json
+        '404':
+          description: No sanction found for the given id.
