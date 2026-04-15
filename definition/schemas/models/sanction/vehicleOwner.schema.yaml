@@ -28,7 +28,7 @@ allOf:
   then:
     properties:
       details:
-        $ref: ../../common/personDetails.schema.yaml
+        $ref: ../../common/detailsPerson.schema.yaml
 - if:
     properties:
       type:
@@ -38,4 +38,4 @@ allOf:
   then:
     properties:
       details:
-        $ref: ../../common/companyDetails.schema.yaml
+        $ref: ../../common/detailsCompany.schema.yaml

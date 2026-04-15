@@ -64,10 +64,10 @@ properties:
     $ref: ./period.schema.yaml
   consequences:
     $ref: ./consequences.schema.yaml
-  # proposedVehicleOwners:
-  #   $ref: ./proposedVehicleOwners.schema.yaml
-  # vehicleOwner:
-  #   $ref: ./vehicleOwner.schema.yaml
+  proposedVehicleOwners:
+    $ref: ./proposedVehicleOwners.schema.yaml
+  vehicleOwner:
+    $ref: ./vehicleOwner.schema.yaml
   breaches:
     $ref: ./breaches.schema.yaml
 allOf:

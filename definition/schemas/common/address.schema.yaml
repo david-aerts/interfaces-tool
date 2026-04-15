@@ -12,12 +12,12 @@ required:
 - countryCode
 properties:
   street:
-    $ref: ../../common/street.schema.yaml
+    $ref: ./street.schema.yaml
   houseNumber:
-    $ref: ../../common/houseNumber.schema.yaml
+    $ref: ./houseNumber.schema.yaml
   postalCode:
-    $ref: ../../common/postalCode.schema.yaml
+    $ref: ./postalCode.schema.yaml
   city:
-    $ref: ../../common/city.schema.yaml
+    $ref: ./city.schema.yaml
   countryCode:
-    $ref: ../../common/countryCode.schema.yaml
+    $ref: ./countryCode.schema.yaml
