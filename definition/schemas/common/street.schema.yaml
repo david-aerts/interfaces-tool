@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-street
 title: street
-description: 'Street'
+description: Street
 type: string
-example: rue de la station
+examples:
+- rue de la station

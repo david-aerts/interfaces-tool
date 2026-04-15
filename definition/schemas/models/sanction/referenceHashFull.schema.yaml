@@ -3,4 +3,5 @@ $id: models-sanction-referenceHashFull
 title: referenceHashFull
 description: The full hash of the source
 type: string
-example: 0YB4059M2Z6AYCC92273HZPA10
+examples:
+- 0YB4059M2Z6AYCC92273HZPA10

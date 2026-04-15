@@ -5,4 +5,5 @@ description: The database
 type:
 - string
 - 'null'
-example: ''
+examples:
+- ''

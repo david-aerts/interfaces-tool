@@ -5,4 +5,5 @@ description: The host
 type:
 - string
 - 'null'
-example: https://www.file-storage-host.com
+examples:
+- https://www.file-storage-host.com

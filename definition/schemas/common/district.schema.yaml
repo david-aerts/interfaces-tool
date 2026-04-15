@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-district
 title: district
-description: 'District'
+description: District
 type: string
-example: Strasbourg
+examples:
+- Strasbourg

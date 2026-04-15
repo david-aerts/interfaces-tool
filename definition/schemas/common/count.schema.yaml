@@ -4,4 +4,5 @@ title: count
 description: Number of times the resource lock was acquired since object creation
 type: integer
 minimum: 0
-example: 0
+examples:
+- 0

@@ -7,4 +7,5 @@ enum:
 - LAPI
 - CONTEXT
 - LAPI_CONTEXT
-example: LAPI
+examples:
+- LAPI

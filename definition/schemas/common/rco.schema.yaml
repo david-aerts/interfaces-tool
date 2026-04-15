@@ -3,4 +3,5 @@ $id: common-rco
 title: rco
 description: RCO Redevable Considéré Occasionnel Boolean
 type: boolean
-example: true
+examples:
+- true

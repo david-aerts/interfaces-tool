@@ -5,4 +5,5 @@ description: Longitude, with a minimum of 5 digits decimal degrees of precision
 type: number
 minimum: -180
 maximum: 180
-example: 7.74685
+examples:
+- 7.74685

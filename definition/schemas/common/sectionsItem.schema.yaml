@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-sectionsItem
 title: sectionsItem
-description: 'Section'
+description: Section
 type: integer
-example: 0
+examples:
+- 0

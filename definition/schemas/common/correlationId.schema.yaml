@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-correlationId
 title: correlationId
-description: 'Correlation id used to correlate requests and responses'
+description: Correlation id used to correlate requests and responses
 type: string
 format: uuid
-example: bb0e72b5-87c6-417e-a203-07dfe8698afe
+examples:
+- bb0e72b5-87c6-417e-a203-07dfe8698afe

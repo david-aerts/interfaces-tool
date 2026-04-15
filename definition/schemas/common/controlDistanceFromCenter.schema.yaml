@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-controlDistanceFromCenter
 title: controlDistanceFromCenter
-description: 'The distance between the center of exemption and the control location'
+description: The distance between the center of exemption and the control location
 type: integer
 minimum: 0
-example: 64174
+examples:
+- 64174

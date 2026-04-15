@@ -4,4 +4,5 @@ title: consequenceFiscalPaymentTerm
 description: Fiscal consequence payment term
 type: integer
 minimum: 1
-example: 30
+examples:
+- 30

@@ -3,4 +3,5 @@ $id: common-deviceType
 title: deviceType
 description: The type of device used for the control
 type: string
-example: re_model_type
+examples:
+- re_model_type

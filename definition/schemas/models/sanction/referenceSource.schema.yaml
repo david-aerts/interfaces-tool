@@ -1,8 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-sanction-referenceSource
 title: referenceSource
-description: Source string for the hash function (contains LPN/country and enforcedAt
-  epoch ms).
+description: Source string for the hash function (contains LPN/country and enforcedAt epoch ms).
 type: string
 pattern: ^([A-Z]{2});([A-Z0-9 -]+);(\d{13})$
-example: FR;1-ABC-123;1752580800000
+examples:
+- FR;1-ABC-123;1752580800000

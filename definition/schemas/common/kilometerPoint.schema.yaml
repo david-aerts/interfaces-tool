@@ -4,4 +4,5 @@ title: kilometerPoint
 description: 'Offical kilometer point as provided by authorities of the Control Location. Ex: 80+120 means 120 meters after kilometer point 80'
 type: string
 pattern: ^\d+\+\d+$
-example: 80+120
+examples:
+- 80+120

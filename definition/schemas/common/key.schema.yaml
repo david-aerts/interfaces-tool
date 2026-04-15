@@ -3,4 +3,5 @@ $id: common-key
 title: key
 description: File path from the File GW storage
 type: string
-example: /my/folder/image_001.jpg
+examples:
+- /my/folder/image_001.jpg

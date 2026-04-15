@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-notYetConsumed
 title: notYetConsumed
-description: 'Ticket not yet consumed attribute'
+description: Ticket not yet consumed attribute
 type: boolean
-example: false
+examples:
+- false

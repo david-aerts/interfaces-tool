@@ -6,12 +6,12 @@ type: object
 additionalProperties: false
 properties:
   page:
-    $ref: "./page.schema.yaml"
+    $ref: ./page.schema.yaml
   pageSize:
-    $ref: "./pageSize.schema.yaml"
+    $ref: ./pageSize.schema.yaml
   sortBy:
-    $ref: "./sortBy.schema.yaml"
+    $ref: ./sortBy.schema.yaml
   sortDir:
-    $ref: "./sortDir.schema.yaml"
+    $ref: ./sortDir.schema.yaml
   filters:
-    $ref: "./filters.schema.yaml"
+    $ref: ./filters.schema.yaml

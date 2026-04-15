@@ -3,4 +3,5 @@ $id: common-fileName
 title: fileName
 description: The file name, used to match the form-data bytes
 type: string
-example: image_001.jpg
+examples:
+- image_001.jpg

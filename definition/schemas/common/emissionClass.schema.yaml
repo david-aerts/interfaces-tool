@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-emissionClass
 title: emissionClass
-description: 'Emission class'
+description: Emission class
 type: string
 enum:
 - EMISSION_CLASS_UNKNOWN
@@ -15,4 +15,5 @@ enum:
 - EURO_6
 - EURO_7
 - EEV
-example: EURO_6
+examples:
+- EURO_6

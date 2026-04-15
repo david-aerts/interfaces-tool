@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-consumptionTimes
 title: consumptionTimes
-description: 'When the ticket was consumed'
+description: When the ticket was consumed
 type: array
 items:
   $ref: ./time.schema.yaml

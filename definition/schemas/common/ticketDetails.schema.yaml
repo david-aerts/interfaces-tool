@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-ticketDetails
 title: ticketDetails
-description: 'Ticket details'
+description: Ticket details
 type: object
 additionalProperties: false
 required:

@@ -4,4 +4,5 @@ title: referencePrefix
 description: The prefix
 type: string
 pattern: ^\d{2}[A-Z]{3}$
-example: 26RPS
+examples:
+- 26RPS

@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-rightLocation
 title: rightLocation
-description: 'Right location attribute'
+description: Right location attribute
 type: boolean
-example: true
+examples:
+- true

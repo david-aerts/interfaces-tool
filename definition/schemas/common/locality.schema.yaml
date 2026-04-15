@@ -3,4 +3,5 @@ $id: common-locality
 title: locality
 description: Name of the locality linked to the Postal Code.
 type: string
-example: Strasbourg
+examples:
+- Strasbourg

@@ -5,4 +5,5 @@ description: Manufacturer ID
 type: integer
 minimum: 0
 maximum: 65535
-example: 10234
+examples:
+- 10234

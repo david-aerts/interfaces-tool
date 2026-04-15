@@ -3,5 +3,6 @@ $id: models-filterRequest-filterKey
 title: filterKey
 description: Field name using dot notation
 type: string
-pattern: "^(?!\\$)[A-Za-z_][A-Za-z0-9_]*(?:\\.[A-Za-z_][A-Za-z0-9_]*)*$"
-example: status.main.value
+pattern: ^(?!\$)[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*$
+examples:
+- status.main.value

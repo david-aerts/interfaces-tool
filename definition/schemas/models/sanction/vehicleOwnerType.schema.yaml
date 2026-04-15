@@ -1,9 +1,10 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-sanction-vehicleOwnerType
 title: vehicleOwnerType
-description: 'Owner type.'
+description: Owner type.
 type: string
 enum:
 - PERSON
 - COMPANY
-example: PERSON
+examples:
+- PERSON

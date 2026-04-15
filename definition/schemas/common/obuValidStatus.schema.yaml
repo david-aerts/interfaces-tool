@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-obuValidStatus
 title: obuValidStatus
-description: 'OBU is valid attribute'
+description: OBU is valid attribute
 type: boolean
-example: true
+examples:
+- true

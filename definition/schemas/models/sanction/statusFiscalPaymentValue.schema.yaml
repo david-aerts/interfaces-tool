@@ -8,4 +8,5 @@ enum:
 - PARTIALWITHOUTPAC
 - PARTIALWITHPAC
 - FULL
-example: NONE
+examples:
+- NONE

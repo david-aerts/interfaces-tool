@@ -3,4 +3,5 @@ $id: common-sectionName
 title: sectionName
 description: Section name of the Control Location
 type: string
-example: A35 - Strasbourg Sud 12.3
+examples:
+- A35 - Strasbourg Sud 12.3

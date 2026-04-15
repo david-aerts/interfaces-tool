@@ -3,4 +3,5 @@ $id: common-deviceId
 title: deviceId
 description: The unique identifier of the device
 type: string
-example: GANTRY_0568
+examples:
+- GANTRY_0568

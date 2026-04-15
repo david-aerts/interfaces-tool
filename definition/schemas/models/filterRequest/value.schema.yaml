@@ -2,5 +2,11 @@ $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-filterRequest-value
 title: value
 description: The value to compare against.
-type: ["string", "number", "boolean", "array"]
-example: ["PENDING", "APPROVED"]
+type:
+- string
+- number
+- boolean
+- array
+examples:
+- - PENDING
+  - APPROVED

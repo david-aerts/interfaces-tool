@@ -3,4 +3,5 @@ $id: common-postalCode
 title: postalCode
 description: Postal code of the Control Location
 type: string
-example: '67000'
+examples:
+- '67000'

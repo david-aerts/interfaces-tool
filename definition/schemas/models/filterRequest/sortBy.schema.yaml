@@ -4,4 +4,5 @@ title: sortBy
 description: Name of the field used for sorting (supports dot notation).
 type: string
 minLength: 1
-example: createdAt.epoch
+examples:
+- createdAt.epoch

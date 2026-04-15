@@ -3,4 +3,5 @@ $id: common-storageName
 title: storageName
 description: Name of the storage defined on the File GW
 type: string
-example: my_file_gw_storage_reference
+examples:
+- my_file_gw_storage_reference

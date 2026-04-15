@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-userId
 title: userId
-description: 'EETS User ID'
+description: EETS User ID
 type: object
 additionalProperties: false
 required:

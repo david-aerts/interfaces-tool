@@ -4,4 +4,5 @@ title: _id
 description: Identifier of the sanction
 type: string
 format: uuid
-example: 550e8400-e29b-41d4-a716-446655440000
+examples:
+- 550e8400-e29b-41d4-a716-446655440000

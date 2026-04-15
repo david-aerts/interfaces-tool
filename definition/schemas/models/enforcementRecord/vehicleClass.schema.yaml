@@ -9,4 +9,5 @@ enum:
 - C
 - D
 - '-'
-example: A
+examples:
+- A

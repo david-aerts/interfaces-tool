@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-houseNumber
 title: houseNumber
-description: 'House number'
+description: House number
 type: string
-example: '1'
+examples:
+- '1'

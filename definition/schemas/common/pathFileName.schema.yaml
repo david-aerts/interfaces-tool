@@ -5,4 +5,5 @@ description: Not applicable for s3 destinations
 type:
 - string
 - 'null'
-example: /A/B/C/D
+examples:
+- /A/B/C/D

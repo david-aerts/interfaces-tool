@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-exemptionRadius
 title: exemptionRadius
-description: 'Exemption radius'
+description: Exemption radius
 type: integer
 minimum: 1
-example: 20000
+examples:
+- 20000

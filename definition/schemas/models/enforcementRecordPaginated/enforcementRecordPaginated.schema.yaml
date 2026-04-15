@@ -5,16 +5,16 @@ description: List of enforcement records, paginated as per request
 type: object
 additionalProperties: false
 required:
-  - page
-  - pageSize
-  - totalElements
-  - content
+- page
+- pageSize
+- totalElements
+- content
 properties:
   page:
-    $ref: "../filterRequest/page.schema.yaml"
+    $ref: ../filterRequest/page.schema.yaml
   pageSize:
-    $ref: "../filterRequest/pageSize.schema.yaml"
+    $ref: ../filterRequest/pageSize.schema.yaml
   totalElements:
-    $ref: "../../common/totalElements.schema.yaml"
+    $ref: ../../common/totalElements.schema.yaml
   content:
-    $ref: "./content.schema.yaml"
+    $ref: ./content.schema.yaml

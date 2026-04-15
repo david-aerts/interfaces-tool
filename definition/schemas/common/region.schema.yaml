@@ -5,4 +5,5 @@ description: The aws region
 type:
 - string
 - 'null'
-example: eu-central-1
+examples:
+- eu-central-1

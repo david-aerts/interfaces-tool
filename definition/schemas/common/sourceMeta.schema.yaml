@@ -6,4 +6,5 @@ type: string
 enum:
 - ctrl
 - snct
-example: ctrl
+examples:
+- ctrl

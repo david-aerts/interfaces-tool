@@ -5,4 +5,5 @@ description: Unique name of the application which is creating the message.
 type: string
 enum:
 - ctrl
-example: ctrl
+examples:
+- ctrl

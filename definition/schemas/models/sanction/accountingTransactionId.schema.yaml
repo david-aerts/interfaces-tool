@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-sanction-accountingTransactionId
 title: accountingTransactionId
-description: 'Accounting transaction identifier.'
+description: Accounting transaction identifier.
 type: integer
 format: int64
-example: 123456789
+examples:
+- 123456789

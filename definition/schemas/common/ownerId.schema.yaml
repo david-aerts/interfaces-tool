@@ -4,4 +4,5 @@ title: ownerId
 description: The lock owner UUID
 type: string
 format: uuid
-example: 0f9c2b7a-3f3b-4b1c-8c3d-8b1a2a5d2c11
+examples:
+- 0f9c2b7a-3f3b-4b1c-8c3d-8b1a2a5d2c11

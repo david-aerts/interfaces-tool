@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-role
 title: role
-description: 'Agent role'
+description: Agent role
 type: string
-example: CONTROL_AGENT_ROLE
+examples:
+- CONTROL_AGENT_ROLE

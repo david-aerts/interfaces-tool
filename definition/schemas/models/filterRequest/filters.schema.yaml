@@ -4,6 +4,6 @@ title: filters
 description: A field name in the destination object that list should be filtered on. The key uses dot notation.
 type: object
 propertyNames:
-  $ref: "./filterKey.schema.yaml"
+  $ref: ./filterKey.schema.yaml
 additionalProperties:
-  $ref: "./filterOperations.schema.yaml"
+  $ref: ./filterOperations.schema.yaml

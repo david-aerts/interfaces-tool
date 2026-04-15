@@ -3,4 +3,5 @@ $id: common-manuallyReviewed
 title: manuallyReviewed
 description: True if the case was reviewed by an operator, false otherwise
 type: boolean
-example: false
+examples:
+- false

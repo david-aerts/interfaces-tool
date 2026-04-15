@@ -5,4 +5,5 @@ description: The s3 bucket
 type:
 - string
 - 'null'
-example: my_bucket
+examples:
+- my_bucket

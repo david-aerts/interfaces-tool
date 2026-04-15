@@ -3,4 +3,5 @@ $id: models-sanction-referencePrint
 title: referencePrint
 description: Reference to be printed on documents (PDF, ticket, etc).
 type: string
-example: 26RPS-0YB4059M2Z-39
+examples:
+- 26RPS-0YB4059M2Z-39

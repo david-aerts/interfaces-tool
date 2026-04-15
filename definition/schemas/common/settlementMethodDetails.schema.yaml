@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-settlementMethodDetails
 title: settlementMethodDetails
-description: 'Settlement method details'
+description: Settlement method details
 oneOf:
 - $ref: ./ticketDetails.schema.yaml
 - $ref: ./exemptionDetails.schema.yaml

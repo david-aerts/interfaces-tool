@@ -2,7 +2,8 @@ $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-filterRequest-page
 title: page
 description: Requested page
-type: "integer"
+type: integer
 minimum: 0
 default: 1
-example: 1
+examples:
+- 1

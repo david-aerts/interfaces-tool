@@ -4,4 +4,5 @@ title: equipmentObuId
 description: OBU ID
 type: string
 pattern: ^[0-9A-F]{8}$
-example: 1A2B3C4D
+examples:
+- 1A2B3C4D

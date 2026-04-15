@@ -1,8 +1,9 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-model
 title: model
-description: 'Vehicle model'
+description: Vehicle model
 type:
 - string
 - 'null'
-example: null
+examples:
+- null

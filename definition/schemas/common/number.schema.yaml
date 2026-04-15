@@ -3,4 +3,5 @@ $id: common-number
 title: number
 description: Integer
 type: integer
-example: 1
+examples:
+- 1

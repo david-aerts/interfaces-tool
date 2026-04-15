@@ -4,4 +4,5 @@ title: settlementMethodId
 description: SettlementMethod ID
 type: integer
 minimum: 0
-example: 1
+examples:
+- 1

@@ -2,8 +2,9 @@ $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-filterRequest-pageSize
 title: pageSize
 description: How many records to return per page.
-type: "integer"
+type: integer
 minimum: 1
 maximum: 100
 default: 10
-example: 10
+examples:
+- 10

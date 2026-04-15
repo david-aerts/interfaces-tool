@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-county
 title: county
-description: 'County'
+description: County
 type: string
-example: Bas-Rhin
+examples:
+- Bas-Rhin

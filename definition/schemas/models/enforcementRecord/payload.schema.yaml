@@ -35,4 +35,3 @@ properties:
     $ref: ../../common/manuallyReviewed.schema.yaml
   enforcementResources:
     $ref: ./enforcementResources.schema.yaml
-

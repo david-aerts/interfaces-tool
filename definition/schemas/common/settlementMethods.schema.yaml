@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-settlementMethods
 title: settlementMethods
-description: 'Settlement methods discovered in the Control'
+description: Settlement methods discovered in the Control
 type: array
 items:
   $ref: ./settlementMethod.schema.yaml

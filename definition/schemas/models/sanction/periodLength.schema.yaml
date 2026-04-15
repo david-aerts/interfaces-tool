@@ -3,5 +3,5 @@ $id: models-sanction-periodLength
 title: periodLength
 description: Education period length in months.
 type: integer
-example: 3
-
+examples:
+- 3

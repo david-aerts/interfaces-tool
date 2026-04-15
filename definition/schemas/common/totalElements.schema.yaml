@@ -4,4 +4,5 @@ title: totalElements
 description: The total number of elements (non-paginated) in the selected list, so after filtering.
 type: integer
 minimum: 0
-example: 100
+examples:
+- 100

@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-reason
 title: reason
-description: 'Legal case reason'
+description: Legal case reason
 type: string
 enum:
 - '1'
@@ -10,4 +10,5 @@ enum:
 - 2-4
 - '4'
 - '5'
-example: 2-3
+examples:
+- 2-3

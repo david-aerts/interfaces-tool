@@ -4,4 +4,5 @@ title: request
 description: This should be the exact request data structure as sent to the related interface.
 type: object
 properties: {}
-example: {placeholder: <request_to_siv>}
+examples:
+- placeholder: <request_to_siv>

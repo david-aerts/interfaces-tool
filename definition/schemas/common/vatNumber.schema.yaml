@@ -3,4 +3,5 @@ $id: common-vatNumber
 title: vatNumber
 description: '[AI-written] Company VAT number.'
 type: string
-example: BE0123456789
+examples:
+- BE0123456789

@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-companyName
 title: companyName
-description: 'Name of the company'
+description: Name of the company
 type: string
-example: DN-Analytics
+examples:
+- DN-Analytics

@@ -1,6 +1,6 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-sanction-accountingTransactionDate
 title: accountingTransactionDate
-description: 'Accounting transaction date.'
+description: Accounting transaction date.
 allOf:
 - $ref: ../../common/time.schema.yaml

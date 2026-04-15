@@ -5,4 +5,5 @@ description: 'Type of location on the File GW : S3'
 type: string
 enum:
 - S3
-example: S3
+examples:
+- S3

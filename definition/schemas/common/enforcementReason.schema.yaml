@@ -3,4 +3,5 @@ $id: common-enforcementReason
 title: enforcementReason
 description: The enforcement reason code
 type: string
-example: reason
+examples:
+- reason

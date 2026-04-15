@@ -1,8 +1,9 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-routeDescription
 title: routeDescription
-description: 'Description of the route'
+description: Description of the route
 type:
 - string
 - 'null'
-example: Alsace autoroute
+examples:
+- Alsace autoroute

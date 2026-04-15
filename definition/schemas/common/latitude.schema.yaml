@@ -5,4 +5,5 @@ description: Latitude, with a minimum of 5 digits decimal degrees of precision
 type: number
 minimum: -90
 maximum: 90
-example: 48.56155
+examples:
+- 48.56155

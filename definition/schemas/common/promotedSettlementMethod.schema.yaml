@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-promotedSettlementMethod
 title: promotedSettlementMethod
-description: 'Promoted settlement method identifier'
+description: Promoted settlement method identifier
 type: integer
 minimum: 0
-example: 1
+examples:
+- 1

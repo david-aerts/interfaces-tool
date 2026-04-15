@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-subscriptionRightDeclaration
 title: subscriptionRightDeclaration
-description: 'Subscription right declaration attribute'
+description: Subscription right declaration attribute
 type: boolean
-example: true
+examples:
+- true

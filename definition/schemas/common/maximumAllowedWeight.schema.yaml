@@ -1,7 +1,8 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-maximumAllowedWeight
 title: maximumAllowedWeight
-description: 'Maximum allowed weigth'
+description: Maximum allowed weigth
 type: integer
 exclusiveMinimum: 0
-example: 10232
+examples:
+- 10232

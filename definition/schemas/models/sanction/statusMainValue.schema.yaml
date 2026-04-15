@@ -9,4 +9,5 @@ enum:
 - CANCELLED
 - PAID
 - ESCALATED
-example: PENDING
+examples:
+- PENDING

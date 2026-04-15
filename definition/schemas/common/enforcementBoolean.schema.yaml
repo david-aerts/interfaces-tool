@@ -3,4 +3,5 @@ $id: common-enforcementBoolean
 title: enforcementBoolean
 description: Boolean representing the decision to enforce or not
 type: boolean
-example: true
+examples:
+- true

@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-settlementMethod
 title: settlementMethod
-description: 'Settlement method'
+description: Settlement method
 type: object
 additionalProperties: false
 required:

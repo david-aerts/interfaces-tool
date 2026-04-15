@@ -3,4 +3,5 @@ $id: common-sourceId
 title: sourceId
 description: Single source trace identifier.
 type: string
-example: 03833b71-b328-4d96-932a-4dbd92487d43
+examples:
+- 03833b71-b328-4d96-932a-4dbd92487d43

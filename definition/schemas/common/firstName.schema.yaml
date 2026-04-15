@@ -3,4 +3,5 @@ $id: common-firstName
 title: firstName
 description: '[AI-written] Person first name.'
 type: string
-example: Jane
+examples:
+- Jane

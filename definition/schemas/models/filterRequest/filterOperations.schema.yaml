@@ -5,4 +5,4 @@ description: Map of field names to filter operations. Different fields are ANDed
 type: array
 minItems: 1
 items:
-  $ref: "./filterOperation.schema.yaml"
+  $ref: ./filterOperation.schema.yaml

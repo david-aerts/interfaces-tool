@@ -1,10 +1,11 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-exceptionListReasonCode
 title: exceptionListReasonCode
-description: 'Type of list'
+description: Type of list
 type: string
 enum:
 - WHITELISTEDUSER
 - TEMPORARYTECHNICALPROBLEM
 - NOT_TO_BE_DISCLOSED
-example: WHITELISTEDUSER
+examples:
+- WHITELISTEDUSER

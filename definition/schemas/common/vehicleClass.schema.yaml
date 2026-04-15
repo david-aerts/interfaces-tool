@@ -8,4 +8,5 @@ enum:
 - CLASS_B
 - CLASS_C
 - CLASS_D
-example: CLASS_A
+examples:
+- CLASS_A

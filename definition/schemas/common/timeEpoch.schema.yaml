@@ -4,4 +4,5 @@ title: timeEpoch
 description: Epoch timestamp (ms)
 type: integer
 minimum: 0
-example: 1776021956340
+examples:
+- 1776021956340

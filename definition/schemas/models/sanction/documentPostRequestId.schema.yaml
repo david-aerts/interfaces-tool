@@ -3,4 +3,5 @@ $id: models-sanction-documentPostRequestId
 title: documentPostRequestId
 description: ' Post service request identifier.'
 type: string
-example: paragon-req-001
+examples:
+- paragon-req-001

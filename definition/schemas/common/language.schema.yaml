@@ -4,4 +4,5 @@ title: language
 description: ISO 639-1 2-letter code
 type: string
 pattern: ^[a-z]{2}$
-example: fr
+examples:
+- fr

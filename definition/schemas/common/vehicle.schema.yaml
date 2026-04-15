@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-vehicle
 title: vehicle
-description: 'Vehicle'
+description: Vehicle
 type: object
 additionalProperties: false
 required:

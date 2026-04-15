@@ -3,4 +3,5 @@ $id: common-licencePlateNumber
 title: licencePlateNumber
 description: Licence Plate Number
 type: string
-example: ABC - 123
+examples:
+- ABC - 123

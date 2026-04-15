@@ -3,4 +3,5 @@ $id: common-sectionIdExt
 title: sectionIdExt
 description: Section identifier of the Control Location
 type: integer
-example: 123456
+examples:
+- 123456

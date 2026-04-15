@@ -3,4 +3,5 @@ $id: common-schema
 title: schema
 description: JSON schema name and version of the message, following general versioning compatibility rules.
 type: string
-example: enforcementRecord_v1
+examples:
+- enforcementRecord_v1

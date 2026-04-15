@@ -4,4 +4,5 @@ title: amountScale
 description: '[AI-written] Monetary amount scale.'
 type: integer
 minimum: 0
-example: 2
+examples:
+- 2

@@ -1,9 +1,10 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: models-breach-value
 title: value
-description: 'Status value'
+description: Status value
 type: string
 enum:
 - PENDING
 - DONE
-example: DONE
+examples:
+- DONE

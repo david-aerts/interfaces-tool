@@ -6,4 +6,5 @@ type: string
 enum:
 - GO
 - NO-GO
-example: GO
+examples:
+- GO

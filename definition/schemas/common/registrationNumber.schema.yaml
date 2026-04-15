@@ -3,4 +3,5 @@ $id: common-registrationNumber
 title: registrationNumber
 description: '[AI-written] Company registration number.'
 type: string
-example: REG-123456
+examples:
+- REG-123456

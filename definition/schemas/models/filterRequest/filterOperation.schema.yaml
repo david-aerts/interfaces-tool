@@ -4,10 +4,10 @@ title: filterOperation
 description: A single filter operation to apply to a field.
 type: object
 required:
-  - operation
-  - value
+- operation
+- value
 properties:
   operation:
-    $ref: "./operation.schema.yaml"
+    $ref: ./operation.schema.yaml
   value:
-    $ref: "./value.schema.yaml"
+    $ref: ./value.schema.yaml

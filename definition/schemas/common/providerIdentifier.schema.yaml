@@ -5,4 +5,5 @@ description: EETS Provider ID
 type: integer
 minimum: 0
 maximum: 16383
-example: 1000
+examples:
+- 1000

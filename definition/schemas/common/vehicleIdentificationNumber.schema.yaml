@@ -1,8 +1,9 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-vehicleIdentificationNumber
 title: vehicleIdentificationNumber
-description: 'Vehicle identification number'
+description: Vehicle identification number
 type:
 - string
 - 'null'
-example: null
+examples:
+- null

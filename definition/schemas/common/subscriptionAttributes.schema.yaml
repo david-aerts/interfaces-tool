@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-subscriptionAttributes
 title: subscriptionAttributes
-description: 'Subscription control outcome attributes'
+description: Subscription control outcome attributes
 type: object
 additionalProperties: false
 required:

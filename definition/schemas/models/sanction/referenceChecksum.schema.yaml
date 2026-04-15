@@ -3,4 +3,5 @@ $id: models-sanction-referenceChecksum
 title: referenceChecksum
 description: Checksum for the portal to validate the reference
 type: integer
-example: 39
+examples:
+- 39

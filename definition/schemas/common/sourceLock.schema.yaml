@@ -3,4 +3,5 @@ $id: common-sourceLock
 title: sourceLock
 description: Unique name of the application which is creating the message.
 type: string
-example: persistor
+examples:
+- persistor

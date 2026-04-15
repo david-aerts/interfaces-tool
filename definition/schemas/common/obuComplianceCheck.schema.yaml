@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-obuComplianceCheck
 title: obuComplianceCheck
-description: 'OBU compliance check attribute'
+description: OBU compliance check attribute
 type: boolean
-example: true
+examples:
+- true

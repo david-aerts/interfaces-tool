@@ -3,4 +3,5 @@ $id: models-sanction-referenceHashShort
 title: referenceHashShort
 description: The truncated hash of the source
 type: string
-example: 0YB4059M2Z
+examples:
+- 0YB4059M2Z

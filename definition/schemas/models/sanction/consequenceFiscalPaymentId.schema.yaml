@@ -4,4 +4,5 @@ title: consequenceFiscalPaymentId
 description: Fiscal consequence payment identifier on the Payment Module (AAX).
 type: integer
 format: int64
-example: 987654321
+examples:
+- 987654321

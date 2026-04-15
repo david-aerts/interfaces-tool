@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-hasSubscription
 title: hasSubscription
-description: 'Subscription attribute'
+description: Subscription attribute
 type: boolean
-example: true
+examples:
+- true

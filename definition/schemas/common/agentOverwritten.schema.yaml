@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-agentOverwritten
 title: agentOverwritten
-description: 'If the Agent has overwritten control preview'
+description: If the Agent has overwritten control preview
 type: object
 additionalProperties: false
 required:

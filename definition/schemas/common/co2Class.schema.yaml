@@ -1,7 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: common-co2Class
 title: co2Class
-description: 'CO2 class'
+description: CO2 class
 type: string
 enum:
 - CO2_UNKNOWN
@@ -10,4 +10,5 @@ enum:
 - CO2_3
 - CO2_4
 - CO2_5
-example: CO2_3
+examples:
+- CO2_3
