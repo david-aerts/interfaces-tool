@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: breach.schema.yaml
+title: breach
+description: 'breach'
+type: object
+additionalProperties: false
+required:
+- meta
+- payload
+properties:
+  meta:
+    $ref: ../../common/meta.schema.yaml
+  payload:
+    $ref: ./payload.schema.yaml

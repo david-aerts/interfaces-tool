@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: sectionIdExt.schema.yaml
+title: sectionIdExt
+description: Section identifier of the Control Location
+type: integer
+example: 123456

@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: ticketAttributes.schema.yaml
+title: ticketAttributes
+description: 'Ticket control outcome attributes'
+type: object
+additionalProperties: false
+required:
+- rightLocation
+- rightDeclaration
+- notYetConsumed
+properties:
+  rightLocation:
+    $ref: ./rightLocation.schema.yaml
+  rightDeclaration:
+    $ref: ./rightDeclaration.schema.yaml
+  notYetConsumed:
+    $ref: ./notYetConsumed.schema.yaml

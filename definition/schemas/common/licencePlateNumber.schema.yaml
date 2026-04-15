@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: licencePlateNumber.schema.yaml
+title: licencePlateNumber
+description: Licence Plate Number
+type: string
+example: ABC - 123

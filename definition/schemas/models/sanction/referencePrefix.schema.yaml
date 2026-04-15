@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: referencePrefix.schema.yaml
+title: referencePrefix
+description: The prefix
+type: string
+pattern: ^\d{2}[A-Z]{3}$
+example: 26RPS

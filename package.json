@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^15.3.5",
+    "js-yaml": "^4.1.1"
+  }
 }

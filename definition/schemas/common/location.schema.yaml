@@ -1,0 +1,44 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: location.schema.yaml
+title: location
+description: 'Location'
+type: object
+additionalProperties: false
+required:
+- latitude
+- longitude
+- country
+- city
+- countryCode
+- postalCode
+- county
+- houseNumber
+- street
+- district
+- name
+- state
+properties:
+  latitude:
+    $ref: ./latitude.schema.yaml
+  longitude:
+    $ref: ./longitude.schema.yaml
+  country:
+    $ref: ./country.schema.yaml
+  city:
+    $ref: ./city.schema.yaml
+  countryCode:
+    $ref: ./countryCode.schema.yaml
+  postalCode:
+    $ref: ./postalCode.schema.yaml
+  county:
+    $ref: ./county.schema.yaml
+  houseNumber:
+    $ref: ./houseNumber.schema.yaml
+  street:
+    $ref: ./street.schema.yaml
+  district:
+    $ref: ./district.schema.yaml
+  name:
+    $ref: ./locationName.schema.yaml
+  state:
+    $ref: ./state.schema.yaml

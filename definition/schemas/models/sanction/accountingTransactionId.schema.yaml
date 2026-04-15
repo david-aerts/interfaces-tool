@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: accountingTransactionId.schema.yaml
+title: accountingTransactionId
+description: 'Accounting transaction identifier.'
+type: integer
+format: int64
+example: 123456789

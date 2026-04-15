@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: email.schema.yaml
+title: email
+description: '[AI-written] Email address.'
+type: string
+format: email
+example: jane.doe@example.com

@@ -1,0 +1,82 @@
+openapi: 3.1.0
+info:
+  title: sanctioningMain
+  version: X.Y.Z
+  description: Sanctioning general purpose REST API
+paths:
+  /enforcement-records/filtered:
+    post:
+      summary: Get Enforcement Records with advanced sorting and filtering.
+      operationId: getEnforcementRecordsList
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: ../../../../publication/schemas/filterRequest/filterRequest_vX.schema.json
+      responses:
+        '200':
+          description: Paginated enforcement records found.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/enforcementRecordPaginated/enforcementRecordPaginated_vX.schema.json
+  /enforcement-record/{passageId}:
+    get:
+      summary: Get enforcement record details by passageId
+      operationId: getEnforcementRecordByPassageId
+      parameters:
+      - name: passageId
+        in: path
+        required: true
+        description: Passage identifier.
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Enforcement record details.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/enforcementRecord/enforcementRecord_vX.schema.json
+        '404':
+          description: No enforcement record found for the given passageId.
+  /breaches/filtered:
+    post:
+      summary: Get Breches with advanced sorting and filtering.
+      operationId: getBreachesList
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: ../../../../publication/schemas/filterRequest/filterRequest_vX.schema.json
+      responses:
+        '200':
+          description: Paginated breaches found.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/breachPaginated/breachPaginated_vX.schema.json
+  /breach/{passageId}:
+    get:
+      summary: Get breach details by passageId
+      operationId: getBreachdById
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Breach identifier.
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Breach details.
+          content:
+            application/json:
+              schema:
+                $ref: ../../../../publication/schemas/breach/breach_vX.schema.json
+        '404':
+          description: No breach found for the given id.

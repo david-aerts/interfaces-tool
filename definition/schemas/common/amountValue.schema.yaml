@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: amountValue.schema.yaml
+title: amountValue
+description: '[AI-written] Monetary amount value.'
+type: integer
+minimum: 0
+example: 1500

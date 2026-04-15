@@ -1,0 +1,21 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: absoluteReference.schema.yaml
+title: absoluteReference
+description: Absolute location details of the file in the file gateway.
+type: object
+additionalProperties: false
+properties:
+  host:
+    $ref: ./host.schema.yaml
+  number:
+    $ref: ./number.schema.yaml
+  region:
+    $ref: ./region.schema.yaml
+  bucket:
+    $ref: ./bucket.schema.yaml
+  database:
+    $ref: ./database.schema.yaml
+  key:
+    $ref: ./key.schema.yaml
+  pathFileName:
+    $ref: ./pathFileName.schema.yaml

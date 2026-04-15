@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusOwnerInformationHistoryItem.schema.yaml
+title: statusOwnerInformationHistoryItem
+description: 'Owner information status history item.'
+type: object
+additionalProperties: false
+required:
+- value
+- start
+- end
+properties:
+  value:
+    $ref: ./statusOwnerInformationValue.schema.yaml
+  start:
+    $ref: ../../common/time.schema.yaml
+  end:
+    $ref: ../../common/time.schema.yaml

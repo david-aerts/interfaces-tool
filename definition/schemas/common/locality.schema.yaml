@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: locality.schema.yaml
+title: locality
+description: Name of the locality linked to the Postal Code.
+type: string
+example: Strasbourg

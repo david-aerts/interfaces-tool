@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: timeGeneralized.schema.yaml
+title: timeGeneralized
+description: Timestamp in GeneralizedTime format. Creation time when the application is creating the message. Ex 20250718152345.123Z
+type: string
+pattern: ^\d{14}\.\d{3}Z$
+example: 20250805125754.045Z

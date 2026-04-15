@@ -1,0 +1,9 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: controlType.schema.yaml
+title: controlType
+description: 'The type of control'
+type: string
+enum:
+- MANUAL
+- AUTOMATIC
+example: MANUAL

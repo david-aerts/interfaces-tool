@@ -1,0 +1,9 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: vehicleOwnerType.schema.yaml
+title: vehicleOwnerType
+description: 'Owner type.'
+type: string
+enum:
+- PERSON
+- COMPANY
+example: PERSON

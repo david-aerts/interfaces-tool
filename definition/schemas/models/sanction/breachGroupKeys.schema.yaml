@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: breachGroupKeys.schema.yaml
+title: breachGroupKeys
+description: Breach JSON keys used for grouping
+type: array
+minItems: 1
+items:
+  $ref: ./breachGroupKey.schema.yaml

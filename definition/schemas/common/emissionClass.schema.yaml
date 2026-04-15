@@ -1,0 +1,18 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: emissionClass.schema.yaml
+title: emissionClass
+description: 'Emission class'
+type: string
+enum:
+- EMISSION_CLASS_UNKNOWN
+- PRE_EURO
+- EURO_0
+- EURO_1
+- EURO_2
+- EURO_3
+- EURO_4
+- EURO_5
+- EURO_6
+- EURO_7
+- EEV
+example: EURO_6

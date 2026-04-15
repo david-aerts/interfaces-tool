@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusHistory.schema.yaml
+title: statusHistory
+description: Historical status entry with a validity period.
+type: object
+additionalProperties: false
+required:
+- value
+- start
+- end
+properties:
+  value:
+    $ref: ./value.schema.yaml
+  start:
+    $ref: ../../common/time.schema.yaml
+  end:
+    $ref: ../../common/time.schema.yaml

@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: gpsCoordinates.schema.yaml
+title: gpsCoordinates
+description: Geographic coordinates.
+type: object
+additionalProperties: false
+required:
+- latitude
+- longitude
+properties:
+  latitude:
+    $ref: ./latitude.schema.yaml
+  longitude:
+    $ref: ./longitude.schema.yaml

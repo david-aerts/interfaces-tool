@@ -1,0 +1,23 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: address.schema.yaml
+title: address
+description: '[AI-written] Vehicle owner postal address.'
+type: object
+additionalProperties: false
+required:
+- street
+- houseNumber
+- postalCode
+- city
+- countryCode
+properties:
+  street:
+    $ref: ../../common/street.schema.yaml
+  houseNumber:
+    $ref: ../../common/houseNumber.schema.yaml
+  postalCode:
+    $ref: ../../common/postalCode.schema.yaml
+  city:
+    $ref: ../../common/city.schema.yaml
+  countryCode:
+    $ref: ../../common/countryCode.schema.yaml

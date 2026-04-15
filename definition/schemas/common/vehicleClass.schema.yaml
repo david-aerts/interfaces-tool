@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: vehicleClass.schema.yaml
+title: vehicleClass
+description: Vehicle Class as fully qualified by Enforcement, which should be used further to qualify vehicle
+type: string
+enum:
+- CLASS_A
+- CLASS_B
+- CLASS_C
+- CLASS_D
+example: CLASS_A

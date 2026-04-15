@@ -1,0 +1,19 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: details.schema.yaml
+title: details
+description: 'Vehicle owner details.'
+type: object
+additionalProperties: false
+properties:
+  firstName:
+    $ref: ./firstName.schema.yaml
+  lastName:
+    $ref: ./lastName.schema.yaml
+  companyName:
+    $ref: ./companyName.schema.yaml
+  registrationNumber:
+    $ref: ./registrationNumber.schema.yaml
+  vatNumber:
+    $ref: .n/vatNumber.schema.yaml
+  siretNumber:
+    $ref: ./siretNumber.schema.yaml

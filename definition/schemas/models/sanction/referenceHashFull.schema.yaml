@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: referenceHashFull.schema.yaml
+title: referenceHashFull
+description: The full hash of the source
+type: string
+example: 0YB4059M2Z6AYCC92273HZPA10

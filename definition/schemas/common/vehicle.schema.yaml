@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: vehicle.schema.yaml
+title: vehicle
+description: 'Vehicle'
+type: object
+additionalProperties: false
+required:
+- licencePlate
+- vehicleCharacteristics
+properties:
+  brand:
+    $ref: ./brand.schema.yaml
+  model:
+    $ref: ./model.schema.yaml
+  licencePlate:
+    $ref: ./licencePlate.schema.yaml
+  vehicleIdentificationNumber:
+    $ref: ./vehicleIdentificationNumber.schema.yaml
+  vehicleCharacteristics:
+    $ref: ./vehicleCharacteristics.schema.yaml

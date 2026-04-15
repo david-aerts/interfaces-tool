@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: time.schema.yaml
+title: time
+description: Time object including ISO and epoch formats
+type: object
+additionalProperties: false
+required:
+- iso
+- epoch
+properties:
+  iso:
+    $ref: ./timeIso.schema.yaml
+  epoch:
+    $ref: ./timeEpoch.schema.yaml

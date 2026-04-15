@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: sectionName.schema.yaml
+title: sectionName
+description: Section name of the Control Location
+type: string
+example: A35 - Strasbourg Sud 12.3

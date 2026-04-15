@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAccounting.schema.yaml
+title: consequenceFiscalAccounting
+description: 'Fiscal consequence amounts.'
+type: object
+additionalProperties: false
+required:
+- transactionId
+- transactionCode
+- transactionDate
+properties:
+  transactionId:
+    $ref: ./accountingTransactionId.schema.yaml
+  transactionCode:
+    $ref: ./accountingTransactionCode.schema.yaml
+  transactionDate:
+    $ref: ./accountingTransactionDate.schema.yaml

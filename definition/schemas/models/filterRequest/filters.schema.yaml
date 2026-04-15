@@ -1,0 +1,9 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: filters.schema.yaml
+title: filters
+description: A field name in the destination object that list should be filtered on. The key uses dot notation.
+type: object
+propertyNames:
+  $ref: "./filterKey.schema.yaml"
+additionalProperties:
+  $ref: "./filterOperations.schema.yaml"

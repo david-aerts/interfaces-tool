@@ -1,0 +1,23 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: meta.schema.yaml
+title: meta
+description: General standard metadata for message management tracing and monitoring
+type: object
+additionalProperties: false
+required:
+- traceId
+- source
+- schema
+- time
+- sourceIds
+properties:
+  traceId:
+    $ref: ./traceId.schema.yaml
+  source:
+    $ref: ./sourceMeta.schema.yaml
+  schema:
+    $ref: ./schema.schema.yaml
+  time:
+    $ref: ./timeGeneralized.schema.yaml
+  sourceIds:
+    $ref: ./sourceIds.schema.yaml

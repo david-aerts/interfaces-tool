@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusFiscalPaymentClaimHistory.schema.yaml
+title: statusFiscalPaymentClaimHistory
+description: 'Fiscal Payment Claim status history.'
+type: array
+items:
+  $ref: ./statusFiscalPaymentClaimHistoryItem.schema.yaml

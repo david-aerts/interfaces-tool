@@ -1,0 +1,40 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: ticketDetails.schema.yaml
+title: ticketDetails
+description: 'Ticket details'
+type: object
+additionalProperties: false
+required:
+- ticketId
+- customer
+- licencePlate
+- validityStart
+- expirationDate
+- vehicleInformation
+- startLocation
+- destinationLocation
+- sections
+- consumptionTimes
+properties:
+  ticketId:
+    $ref: ./ticketId.schema.yaml
+  customer:
+    $ref: ./customer.schema.yaml
+  licencePlate:
+    $ref: ./licencePlate.schema.yaml
+  validityStart:
+    $ref: ./time.schema.yaml
+  expirationDate:
+    $ref: ./time.schema.yaml
+  vehicleInformation:
+    $ref: ./characteristics.schema.yaml
+  routeDescription:
+    $ref: ./routeDescription.schema.yaml
+  startLocation:
+    $ref: ./location.schema.yaml
+  destinationLocation:
+    $ref: ./location.schema.yaml
+  sections:
+    $ref: ./sections.schema.yaml
+  consumptionTimes:
+    $ref: ./consumptionTimes.schema.yaml

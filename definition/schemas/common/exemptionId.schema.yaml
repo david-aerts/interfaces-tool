@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exemptionId.schema.yaml
+title: exemptionId
+description: 'Exemption identifier'
+type: string
+format: uuid
+example: 9ead098f-cf1c-46ba-8a93-9adbbe970ef4

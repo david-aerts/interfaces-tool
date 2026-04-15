@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequences.schema.yaml
+title: consequences
+description: 'Sanction consequences'
+type: object
+additionalProperties: false
+required:
+- fiscal
+properties:
+  fiscal:
+    $ref: ./consequenceFiscal.schema.yaml

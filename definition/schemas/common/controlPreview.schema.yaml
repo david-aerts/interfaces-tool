@@ -1,0 +1,15 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: controlPreview.schema.yaml
+title: controlPreview
+description: 'The result of the automatic control outcome as returned by Sanctioning backend'
+type: object
+additionalProperties: false
+required:
+- correlationId
+properties:
+  correlationId:
+    $ref: ./correlationId.schema.yaml
+  promotedSettlementMethod:
+    $ref: ./promotedSettlementMethod.schema.yaml
+  settlementMethods:
+    $ref: ./settlementMethods.schema.yaml

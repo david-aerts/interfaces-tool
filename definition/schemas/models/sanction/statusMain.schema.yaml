@@ -1,0 +1,16 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusMain.schema.yaml
+title: statusMain
+description: 'Main status.'
+type: object
+additionalProperties: false
+required:
+- value
+- start
+properties:
+  value:
+    $ref: ./statusMainValue.schema.yaml
+  start:
+    $ref: ../../common/time.schema.yaml
+  history:
+    $ref: ./statusMainHistory.schema.yaml

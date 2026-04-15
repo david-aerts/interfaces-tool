@@ -1,0 +1,12 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusMainValue.schema.yaml
+title: statusMainValue
+description: Main status value.
+type: string
+enum:
+- PENDING
+- ON_HOLD
+- CANCELLED
+- PAID
+- ESCALATED
+example: PENDING

@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmountsSplit.schema.yaml
+title: consequenceFiscalAmountsSplit
+description: 'Fiscal consequence split amounts'
+type: object
+additionalProperties: false
+required:
+- due
+- paid
+- refunded
+properties:
+  due:
+    $ref: ./consequenceFiscalAmountsTax.schema.yaml
+  paid:
+    $ref: ./consequenceFiscalAmountsAdmin.schema.yaml
+  refunded:
+    $ref: ./consequenceFiscalAmountsExtPublicAction.schema.yaml

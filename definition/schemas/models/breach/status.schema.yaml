@@ -1,0 +1,16 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: status.schema.yaml
+title: status
+description: 'Status'
+type: object
+additionalProperties: false
+required:
+- value
+- start
+properties:
+  value:
+    $ref: ./value.schema.yaml
+  start:
+    $ref: ../../common/time.schema.yaml
+  history:
+    $ref: ./history.schema.yaml

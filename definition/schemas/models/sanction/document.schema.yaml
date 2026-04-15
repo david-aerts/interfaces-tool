@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: document.schema.yaml
+title: document
+description: '[AI-written] Fiscal document metadata.'
+type: object
+additionalProperties: false
+required:
+- createdAt
+- pdfCreatorReq
+- location
+- post
+properties:
+  createdAt:
+    $ref: ../../common/time.schema.yaml
+  pdfCreatorReq:
+    $ref: ./pdfCreatorReq.schema.yaml
+  location:
+    $ref: ../../common/fileLocation.schema.yaml
+  post:
+    $ref: ./post.schema.yaml

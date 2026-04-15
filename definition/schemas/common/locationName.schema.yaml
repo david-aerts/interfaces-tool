@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: locationName.schema.yaml
+title: locationName
+description: 'Location name'
+type: string
+example: Alsace

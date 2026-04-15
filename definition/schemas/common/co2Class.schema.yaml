@@ -1,0 +1,13 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: co2Class.schema.yaml
+title: co2Class
+description: 'CO2 class'
+type: string
+enum:
+- CO2_UNKNOWN
+- CO2_1
+- CO2_2
+- CO2_3
+- CO2_4
+- CO2_5
+example: CO2_3

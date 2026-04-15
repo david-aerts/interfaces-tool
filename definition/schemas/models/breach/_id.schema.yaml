@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _id.schema.yaml
+title: _id
+description: 'the breach internal id'
+type: string
+format: uuid
+example: bb0e72b5-87c6-417e-a203-07dfe8698afe

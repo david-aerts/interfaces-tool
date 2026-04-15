@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statuses.schema.yaml
+title: statuses
+description: 'Sanction main and specific statuses.'
+type: object
+additionalProperties: false
+required:
+- main
+- fiscalPayment
+- fiscalPaymentClaim
+- ownerInformation
+properties:
+  main:
+    $ref: ./statusMain.schema.yaml
+  fiscalPayment:
+    $ref: ./statusFiscalPaymentStatus.schema.yaml
+  fiscalPaymentClaim:
+    $ref: ./statusFiscalPaymentClaimStatus.schema.yaml
+  ownerInformation:
+    $ref: ./statusOwnerInformationStatus.schema.yaml

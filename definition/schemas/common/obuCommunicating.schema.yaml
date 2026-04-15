@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: obuCommunicating.schema.yaml
+title: obuCommunicating
+description: 'OBU communicating attribute'
+type: boolean
+example: true

@@ -1,0 +1,15 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: characteristics.schema.yaml
+title: characteristics
+description: 'Vehicle characteristics.'
+type: object
+additionalProperties: false
+properties:
+  maximumAllowedWeight:
+    $ref: ./maximumAllowedWeight.schema.yaml
+  emissionClass:
+    $ref: ./emissionClass.schema.yaml
+  vehicleClass:
+    $ref: ./vehicleClass.schema.yaml
+  co2Class:
+    $ref: ./co2Class.schema.yaml

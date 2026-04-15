@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: street.schema.yaml
+title: street
+description: 'Street'
+type: string
+example: rue de la station

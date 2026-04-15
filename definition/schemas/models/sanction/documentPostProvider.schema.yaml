@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: documentPostProvider.schema.yaml
+title: documentPostProvider
+description: 'Post service provider.'
+type: string
+enum:
+- PARAGON
+example: PARAGON

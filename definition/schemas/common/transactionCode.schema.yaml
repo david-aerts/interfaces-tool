@@ -1,0 +1,12 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: transactionCode.schema.yaml
+title: transactionCode
+description: '[AI-written] Accounting transaction code.'
+type: string
+enum:
+- REGISTER_SANCTION
+- PAY_SANCTION
+- DISBURSE_SANCTION
+- REFUND_SANCTION
+- CANCEL_SANCTION
+example: REGISTER_SANCTION

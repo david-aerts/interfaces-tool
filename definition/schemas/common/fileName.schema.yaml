@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: fileName.schema.yaml
+title: fileName
+description: The file name, used to match the form-data bytes
+type: string
+example: image_001.jpg

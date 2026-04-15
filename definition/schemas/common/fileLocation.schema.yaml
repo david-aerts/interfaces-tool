@@ -1,0 +1,13 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: fileLocation.schema.yaml
+title: fileLocation
+description: Physical or logical location metadata describing where the file is stored on the File Gateway.
+type: object
+additionalProperties: false
+properties:
+  type:
+    $ref: ./fileLocationType.schema.yaml
+  fGwReference:
+    $ref: ./fGwReference.schema.yaml
+  absoluteReference:
+    $ref: ./absoluteReference.schema.yaml

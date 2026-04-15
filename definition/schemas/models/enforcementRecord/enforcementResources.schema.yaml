@@ -1,0 +1,15 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: enforcementResources.schema.yaml
+title: enforcementResources
+description: External resource calls and responses collected during control.
+type: object
+additionalProperties: false
+required:
+- listHandling
+properties:
+  siv:
+    $ref: ./resourceCall.schema.yaml
+  eucaris:
+    $ref: ./resourceCall.schema.yaml
+  listHandling:
+    $ref: ./resourceCall.schema.yaml

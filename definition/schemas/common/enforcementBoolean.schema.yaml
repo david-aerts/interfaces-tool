@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: enforcementBoolean.schema.yaml
+title: enforcementBoolean
+description: Boolean representing the decision to enforce or not
+type: boolean
+example: true

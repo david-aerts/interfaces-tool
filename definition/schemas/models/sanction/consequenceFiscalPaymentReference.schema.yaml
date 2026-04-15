@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalPaymentReference.schema.yaml
+title: consequenceFiscalPaymentReference
+description: ISO 11649 Structured Creditor Reference (bank transfer).
+type: string
+pattern: ^RF\d{2}[A-Z0-9]{1,21}$
+example: RF18539007547034

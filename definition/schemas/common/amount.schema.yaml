@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: amount.schema.yaml
+title: amount
+description: '[AI-written] Monetary amount with value and scale.'
+type: object
+additionalProperties: false
+required:
+- value
+- scale
+properties:
+  value:
+    $ref: ./amountValue.schema.yaml
+  scale:
+    $ref: ./amountScale.schema.yaml

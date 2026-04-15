@@ -1,0 +1,15 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: controlPoint.schema.yaml
+title: controlPoint
+description: 'Information about the control point'
+type: object
+additionalProperties: false
+required:
+- id
+properties:
+  id:
+    $ref: ./deviceId.schema.yaml
+  role:
+    $ref: ./role.schema.yaml
+  type:
+    $ref: ./deviceType.schema.yaml

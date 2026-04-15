@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: settlementMethodId.schema.yaml
+title: settlementMethodId
+description: SettlementMethod ID
+type: integer
+minimum: 0
+example: 1

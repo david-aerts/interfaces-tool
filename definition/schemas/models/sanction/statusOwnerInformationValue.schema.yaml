@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusOwnerInformationValue.schema.yaml
+title: statusOwnerInformationValue
+description: Owner information status value.
+type: string
+enum:
+- NONE
+- INCOMPLETE
+- AMBIGUOUS
+- DEFINED
+example: NONE

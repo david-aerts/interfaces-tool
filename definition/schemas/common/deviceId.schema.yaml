@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: deviceId.schema.yaml
+title: deviceId
+description: The unique identifier of the device
+type: string
+example: GANTRY_0568

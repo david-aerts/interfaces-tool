@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmountsAdmin.schema.yaml
+title: consequenceFiscalAmountsAdmin
+description: 'Fiscal consequence admin cost amounts.'
+type: object
+additionalProperties: false
+required:
+- due
+- paid
+properties:
+  due:
+    $ref:  ../../common/amount.schema.yaml
+  paid:
+    $ref:  ../../common/amount.schema.yaml

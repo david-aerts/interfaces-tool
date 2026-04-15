@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmountsTax.schema.yaml
+title: consequenceFiscalAmountsTax
+description: 'Fiscal consequence tax amounts.'
+type: object
+additionalProperties: false
+required:
+- due
+- paid
+properties:
+  due:
+    $ref:  ../../common/amount.schema.yaml
+  paid:
+    $ref:  ../../common/amount.schema.yaml

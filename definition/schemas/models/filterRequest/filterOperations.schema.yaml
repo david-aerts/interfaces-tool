@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: filterOperations.schema.yaml
+title: filterOperations
+description: Map of field names to filter operations. Different fields are ANDed operations within a field are ANDed.
+type: array
+minItems: 1
+items:
+  $ref: "./filterOperation.schema.yaml"

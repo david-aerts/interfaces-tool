@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: amountScale.schema.yaml
+title: amountScale
+description: '[AI-written] Monetary amount scale.'
+type: integer
+minimum: 0
+example: 2

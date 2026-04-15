@@ -1,0 +1,92 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: payload.schema.yaml
+title: payload
+description: 'Sanction business payload.'
+type: object
+additionalProperties: false
+required:
+- _id
+- createdAt
+- updatedAt
+- status
+- lock
+- controlType
+- controlPoint
+- enforcedAt
+- controlLocation
+- vehicle
+- images
+- controlPreview
+- controlOutcome
+- reference
+- breachGroup
+- period
+- consequences
+# - proposedVehicleOwners
+# - vehicleOwner
+- breaches
+properties:
+  _id:
+    $ref: ./_id.schema.yaml
+  createdAt:
+    $ref: ../../common/time.schema.yaml
+  updatedAt:
+    $ref: ../../common/time.schema.yaml
+  status:
+    $ref: ./statuses.schema.yaml
+  lock:
+    $ref: ../../common/lock.schema.yaml
+  controlType:
+    $ref: ../../common/controlType.schema.yaml
+  controlPoint:
+    $ref: ../../common/controlPoint.schema.yaml
+  manualControlId:
+    $ref: ../../common/manualControlId.schema.yaml
+  enforcedAt:
+    $ref: ../../common/time.schema.yaml
+  controlLocation:
+    $ref: ../../common/controlLocation.schema.yaml
+  vehicle:
+    $ref: ../../common/vehicle.schema.yaml
+  images:
+    $ref: ../../common/images.schema.yaml
+  controlPreview:
+    $ref: ../../common/controlPreview.schema.yaml
+  agentOverwritten:
+    $ref: ../../common/agentOverwritten.schema.yaml
+  controlOutcome:
+    $ref: ../../common/settlementMethod.schema.yaml
+  reference:
+    $ref: ./reference.schema.yaml
+  breachGroup:
+    $ref: ./breachGroup.schema.yaml
+  period:
+    $ref: ./period.schema.yaml
+  consequences:
+    $ref: ./consequences.schema.yaml
+  # proposedVehicleOwners:
+  #   $ref: ./proposedVehicleOwners.schema.yaml
+  # vehicleOwner:
+  #   $ref: ./vehicleOwner.schema.yaml
+  breaches:
+    $ref: ./breaches.schema.yaml
+allOf:
+- if:
+    properties:
+      controlType:
+        const: MANUAL
+    required:
+    - controlType
+  then:
+    required:
+    - manualControlId
+- if:
+    properties:
+      controlType:
+        const: AUTOMATIC
+    required:
+    - controlType
+  then:
+    not:
+      required:
+      - manualControlId

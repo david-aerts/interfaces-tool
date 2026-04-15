@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: licencePlate.schema.yaml
+title: licencePlate
+description: Vehicle licence plate identification data.
+type: object
+additionalProperties: false
+required:
+- number
+- countryCode
+properties:
+  number:
+    $ref: ./licencePlateNumber.schema.yaml
+  countryCode:
+    $ref: ./countryCode.schema.yaml

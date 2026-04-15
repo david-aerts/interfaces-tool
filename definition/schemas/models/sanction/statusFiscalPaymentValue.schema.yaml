@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusFiscalPaymentValue.schema.yaml
+title: statusFiscalPaymentValue
+description: Fiscal payment status value
+type: string
+enum:
+- NONE
+- PARTIALWITHOUTPAC
+- PARTIALWITHPAC
+- FULL
+example: NONE

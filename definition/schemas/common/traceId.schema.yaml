@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: traceId.schema.yaml
+title: traceId
+description: Business object trace Id. Must be unique.
+type: string
+format: uuid
+example: 92ebc621-800d-497c-abc6-21800df97c81

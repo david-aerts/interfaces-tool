@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: database.schema.yaml
+title: database
+description: The database
+type:
+- string
+- 'null'
+example: ''

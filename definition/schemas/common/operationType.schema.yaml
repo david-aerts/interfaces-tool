@@ -1,0 +1,9 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: operationType.schema.yaml
+title: operationType
+description: 'Operation type'
+type: string
+enum:
+- NO_OVERRIDE
+- OVERRIDE
+example: NO_OVERRIDE

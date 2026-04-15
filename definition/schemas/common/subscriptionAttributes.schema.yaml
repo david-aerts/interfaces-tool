@@ -1,0 +1,35 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: subscriptionAttributes.schema.yaml
+title: subscriptionAttributes
+description: 'Subscription control outcome attributes'
+type: object
+additionalProperties: false
+required:
+- hasSubscription
+- subscriptionWhiteListed
+- subscriptionRightLpn
+- subscriptionRightDeclaration
+- obuComplianceCheck
+- obuSubscriptionTechnicalStatus
+- obuCommunicating
+- obuValidStatus
+- obuRightLpn
+properties:
+  hasSubscription:
+    $ref: ./hasSubscription.schema.yaml
+  subscriptionWhiteListed:
+    $ref: ./subscriptionWhiteListed.schema.yaml
+  subscriptionRightLpn:
+    $ref: ./subscriptionRightLpn.schema.yaml
+  subscriptionRightDeclaration:
+    $ref: ./subscriptionRightDeclaration.schema.yaml
+  obuComplianceCheck:
+    $ref: ./obuComplianceCheck.schema.yaml
+  obuSubscriptionTechnicalStatus:
+    $ref: ./obuSubscriptionTechnicalStatus.schema.yaml
+  obuCommunicating:
+    $ref: ./obuCommunicating.schema.yaml
+  obuValidStatus:
+    $ref: ./obuValidStatus.schema.yaml
+  obuRightLpn:
+    $ref: ./obuRightLpn.schema.yaml

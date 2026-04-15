@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: sanction.schema.yaml
+title: sanction
+description: 'Sanction'
+type: object
+additionalProperties: false
+required:
+- meta
+- payload
+properties:
+  meta:
+    $ref: ../../common/meta.schema.yaml
+  payload:
+    $ref: ./payload.schema.yaml

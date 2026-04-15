@@ -1,0 +1,10 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: imageType.schema.yaml
+title: imageType
+description: 'LAPI : The image can be used to read the Licence Plate. CONTEXT: The image can be used to visualise the general context (vehicle). LAPI_CONTEXT: The image can be used to read the Licence Plate and visualised the general context (vehicle).'
+type: string
+enum:
+- LAPI
+- CONTEXT
+- LAPI_CONTEXT
+example: LAPI

@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: breachGroup.schema.yaml
+title: breachGroup
+description: 'Breach grouping information.'
+type: object
+additionalProperties: false
+required:
+- start
+- end
+- keys
+properties:
+  start:
+    $ref: ../../common/time.schema.yaml
+  end:
+    $ref: ../../common/time.schema.yaml
+  keys:
+    $ref: ./breachGroupKeys.schema.yaml

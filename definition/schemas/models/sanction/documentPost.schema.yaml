@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: documentPost.schema.yaml
+title: documentPost
+description: '[AI-written] Post service metadata.'
+type: object
+additionalProperties: false
+required:
+- provider
+- sentToPostServiceAt
+- requestId
+properties:
+  provider:
+    $ref: ./documentPostProvider.schema.yaml
+  sentToPostServiceAt:
+    $ref: ./documentSentToPostServiceAt.schema.yaml
+  requestId:
+    $ref: ./documentPostRequestId.schema.yaml

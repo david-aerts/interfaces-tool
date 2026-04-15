@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: houseNumber.schema.yaml
+title: houseNumber
+description: 'House number'
+type: string
+example: '1'

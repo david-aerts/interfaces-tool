@@ -1,0 +1,55 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: payload.schema.yaml
+title: payload
+description: The business payload
+type: object
+additionalProperties: false
+required:
+- createdAt
+- updatedAt
+- status
+- lock
+- controlType
+- controlPoint
+- enforcedAt
+- controlLocation
+- vehicle
+- images
+- controlPreview
+- controlOutcome
+- enforcement
+properties:
+  _id:
+    $ref: ./_id.schema.yaml
+  createdAt:
+    $ref: ../../common/time.schema.yaml
+  updatedAt:
+    $ref: ../../common/time.schema.yaml
+  status:
+    $ref: ./statuses.schema.yaml
+  lock:
+    $ref: ../../common/lock.schema.yaml
+  controlType:
+    $ref: ../../common/controlType.schema.yaml
+  controlPoint:
+    $ref: ../../common/controlPoint.schema.yaml
+  manualControlId:
+    $ref: ../../common/manualControlId.schema.yaml
+  enforcedAt:
+    $ref: ../../common/time.schema.yaml
+  controlLocation:
+    $ref: ../../common/controlLocation.schema.yaml
+  vehicle:
+    $ref: ../../common/vehicle.schema.yaml
+  images:
+    $ref: ../../common/images.schema.yaml
+  controlPreview:
+    $ref: ../../common/controlPreview.schema.yaml
+  controlOutcome:
+    $ref: ../../common/settlementMethod.schema.yaml
+  agentOverwritten:
+    $ref: ../../common/agentOverwritten.schema.yaml
+  enforcement:
+    $ref: ../../common/enforcement.schema.yaml
+  enforcementRecord:
+    $ref: ../enforcementRecord/enforcementRecord.schema.yaml

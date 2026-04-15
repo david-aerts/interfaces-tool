@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: qualification.schema.yaml
+title: qualification
+description: Enforcement qualification outcome for the detected vehicle.
+type: object
+additionalProperties: false
+required:
+- licencePlate
+- vehicleClass
+properties:
+  licencePlate:
+    $ref: ../../common/licencePlate.schema.yaml
+  vehicleClass:
+    $ref: ./vehicleClass.schema.yaml

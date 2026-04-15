@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: licencePlates.schema.yaml
+title: licencePlates
+description: List of licence plates detected on the vehicle, there can be multiple
+type: array
+items:
+  $ref: ./licencePlate.schema.yaml

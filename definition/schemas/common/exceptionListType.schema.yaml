@@ -1,0 +1,9 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exceptionListType.schema.yaml
+title: exceptionListType
+description: 'Type of list'
+type: string
+enum:
+- WHITELIST
+- BLACKLIST
+example: WHITELIST

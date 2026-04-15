@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: content.schema.yaml
+title: content
+description: The list of requested elements, filtered, ordered then paginaged as per the request.
+type: array
+items:
+  $ref: ../breach/breach.schema.yaml

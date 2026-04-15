@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmountsExtPublicAction.schema.yaml
+title: consequenceFiscalAmountsExtPublicAction
+description: 'Fiscal consequence extinction of public action'
+type: object
+additionalProperties: false
+required:
+- due
+- paid
+properties:
+  due:
+    $ref:  ../../common/amount.schema.yaml
+  paid:
+    $ref:  ../../common/amount.schema.yaml

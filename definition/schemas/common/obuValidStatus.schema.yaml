@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: obuValidStatus.schema.yaml
+title: obuValidStatus
+description: 'OBU is valid attribute'
+type: boolean
+example: true

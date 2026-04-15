@@ -1,0 +1,33 @@
+asyncapi: 3.1.0
+info:
+  title: enforcementRecordsToReporting
+  version: X.Y.Z
+  description: Kafka topic for publishing enforcement records to Reporting Module
+servers:
+  production:
+    host: localhost:9092
+    protocol: kafka
+    description: Production Kafka
+channels:
+  enforcementRecords:
+    address: kafka-topic/enforcementRecords
+    messages:
+      enforcementRecord:
+        name: enforcementRecord
+        title: Enforcement record envelope
+        summary: Carries the full enforcement record envelope with meta and payload.
+        contentType: application/json
+        payload:
+          $ref: ../../../../publication/schemas/enforcementRecord/enforcementRecord_vX.schema.yaml
+        examples:
+          - name: SampleEnforcementRecord
+            summary: Example enforcement record envelope
+            payload:
+              $ref: ../../../../publication/schemas/enforcementRecord/enforcementRecord_vX.example.json
+operations:
+  publishEnforcementRecord:
+    action: receive
+    channel:
+      $ref: '#/channels/enforcementRecords'
+    messages:
+      - $ref: '#/channels/enforcementRecords/messages/enforcementRecord'

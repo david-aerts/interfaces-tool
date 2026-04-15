@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: referenceHashShort.schema.yaml
+title: referenceHashShort
+description: The truncated hash of the source
+type: string
+example: 0YB4059M2Z

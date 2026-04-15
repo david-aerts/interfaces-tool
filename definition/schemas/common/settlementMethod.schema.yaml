@@ -1,0 +1,31 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: settlementMethod.schema.yaml
+title: settlementMethod
+description: 'Settlement method'
+type: object
+additionalProperties: false
+required:
+- enforcement
+- rco
+- technicalStatus
+- reason
+- category
+- attributes
+- details
+properties:
+  id:
+    $ref: ./settlementMethodId.schema.yaml
+  enforcement:
+    $ref: ./enforcementBoolean.schema.yaml
+  rco:
+    $ref: ./rco.schema.yaml
+  technicalStatus:
+    $ref: ./technicalStatus.schema.yaml
+  reason:
+    $ref: ./reason.schema.yaml
+  category:
+    $ref: ./category.schema.yaml
+  attributes:
+    $ref: ./settlementMethodAttributes.schema.yaml
+  details:
+    $ref: ./settlementMethodDetails.schema.yaml

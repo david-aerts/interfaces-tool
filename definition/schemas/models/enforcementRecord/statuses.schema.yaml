@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statuses.schema.yaml
+title: statuses
+description: Collection of status information associated with the object.
+type: object
+additionalProperties: false
+required:
+- main
+properties:
+  main:
+    $ref: ./status.schema.yaml

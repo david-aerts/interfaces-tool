@@ -1,0 +1,38 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exemptionDetails.schema.yaml
+title: exemptionDetails
+description: 'Exemption details'
+type: object
+additionalProperties: false
+required:
+- exemptionId
+- customer
+- licencePlate
+- exemptionStart
+- exemptionEnd
+- vehicleInformation
+- exemptionAddress
+- exemptionRadius
+- radiusTolerance
+- controlDistanceFromCenter
+properties:
+  exemptionId:
+    $ref: ./exemptionId.schema.yaml
+  customer:
+    $ref: ./customer.schema.yaml
+  licencePlate:
+    $ref: ./licencePlate.schema.yaml
+  exemptionStart:
+    $ref: ./time.schema.yaml
+  exemptionEnd:
+    $ref: ./time.schema.yaml
+  vehicleInformation:
+    $ref: ./characteristics.schema.yaml
+  exemptionAddress:
+    $ref: ./exemptionAddress.schema.yaml
+  exemptionRadius:
+    $ref: ./exemptionRadius.schema.yaml
+  radiusTolerance:
+    $ref: ./radiusTolerance.schema.yaml
+  controlDistanceFromCenter:
+    $ref: ./controlDistanceFromCenter.schema.yaml

@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: resourceCall.schema.yaml
+title: resourceCall
+description: Request and response exchanged with an external resource.
+type: object
+additionalProperties: false
+required:
+- req
+- res
+properties:
+  req:
+    $ref: ./request.schema.yaml
+  res:
+    $ref: ./response.schema.yaml

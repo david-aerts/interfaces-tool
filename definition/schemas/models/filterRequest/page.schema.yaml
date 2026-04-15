@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: page.schema.yaml
+title: page
+description: Requested page
+type: "integer"
+minimum: 0
+default: 1
+example: 1

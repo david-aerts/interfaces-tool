@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: settlementMethodDetails.schema.yaml
+title: settlementMethodDetails
+description: 'Settlement method details'
+oneOf:
+- $ref: ./ticketDetails.schema.yaml
+- $ref: ./exemptionDetails.schema.yaml
+- $ref: ./subscriptionDetails.schema.yaml

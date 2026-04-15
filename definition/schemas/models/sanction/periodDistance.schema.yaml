@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: periodDistance.schema.yaml
+title: periodDistance
+description: Distance used to compute sanction tax amount.
+type: integer
+example: 120

@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: enforcement.schema.yaml
+title: enforcement
+description: Enforcement summary
+type: object
+additionalProperties: false
+required:
+- reason
+- timestamp
+properties:
+  reason:
+    $ref: ./enforcementReason.schema.yaml
+  timestamp:
+    $ref: ./time.schema.yaml

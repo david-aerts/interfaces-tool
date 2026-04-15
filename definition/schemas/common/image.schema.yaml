@@ -1,0 +1,19 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: image.schema.yaml
+title: image
+description: Image metadata attached.
+type: object
+additionalProperties: false
+required:
+- capturedAt
+- fileName
+- type
+properties:
+  capturedAt:
+    $ref: ./time.schema.yaml
+  fileName:
+    $ref: ./fileName.schema.yaml
+  type:
+    $ref: ./imageType.schema.yaml
+  location:
+    $ref: ./fileLocation.schema.yaml

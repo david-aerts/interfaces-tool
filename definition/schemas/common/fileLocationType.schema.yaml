@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: fileLocationType.schema.yaml
+title: fileLocationType
+description: 'Type of location on the File GW : S3'
+type: string
+enum:
+- S3
+example: S3

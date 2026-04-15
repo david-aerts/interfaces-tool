@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: history.schema.yaml
+title: history
+description: 'Status history'
+type: array
+items:
+  $ref: ./statusHistory.schema.yaml

@@ -1,0 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: longitude.schema.yaml
+title: longitude
+description: Longitude, with a minimum of 5 digits decimal degrees of precision
+type: number
+minimum: -180
+maximum: 180
+example: 7.74685

@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: postalCode.schema.yaml
+title: postalCode
+description: Postal code of the Control Location
+type: string
+example: '67000'

@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: filterKey.schema.yaml
+title: filterKey
+description: Field name using dot notation
+type: string
+pattern: "^(?!\\$)[A-Za-z_][A-Za-z0-9_]*(?:\\.[A-Za-z_][A-Za-z0-9_]*)*$"
+example: status.main.value

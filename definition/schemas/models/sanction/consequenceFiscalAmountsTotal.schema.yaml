@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmountsTotal.schema.yaml
+title: consequenceFiscalAmountsTotal
+description: 'Fiscal consequence total amounts.'
+type: object
+additionalProperties: false
+required:
+- due
+- paid
+- refunded
+properties:
+  due:
+    $ref: ../../common/amount.schema.yaml
+  paid:
+    $ref: ../../common/amount.schema.yaml
+  refunded:
+    $ref: ../../common/amount.schema.yaml

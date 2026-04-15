@@ -1,0 +1,26 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: dsrcReading.schema.yaml
+title: dsrcReading
+description: DSRC reading captured from an on-board unit.
+type: object
+additionalProperties: false
+required:
+- obeId
+- obuStatus
+- obuTurnedOnSince
+- pan
+- licencePlate
+- eetsProviderId
+properties:
+  obeId:
+    $ref: ../../common/obeId.schema.yaml
+  obuStatus:
+    $ref: ../../common/obuStatus.schema.yaml
+  obuTurnedOnSince:
+    $ref: ../../common/time.schema.yaml
+  pan:
+    $ref: ../../common/pan.schema.yaml
+  licencePlate:
+    $ref: ../../common/licencePlate.schema.yaml
+  eetsProviderId:
+    $ref: ../../common/eetsProviderId.schema.yaml

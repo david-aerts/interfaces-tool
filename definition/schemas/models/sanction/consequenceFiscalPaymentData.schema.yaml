@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalPaymentData.schema.yaml
+title: consequenceFiscalPaymentData
+description: 'Fiscal consequence Payment data.'
+type: object
+additionalProperties: false
+required:
+- id
+- reference
+- term
+properties:
+  id:
+    $ref: ./consequenceFiscalPaymentId.schema.yaml
+  reference:
+    $ref: ./consequenceFiscalPaymentReference.schema.yaml
+  term:
+    $ref: ./consequenceFiscalPaymentTerm.schema.yaml

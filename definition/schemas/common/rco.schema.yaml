@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: rco.schema.yaml
+title: rco
+description: RCO Redevable Considéré Occasionnel Boolean
+type: boolean
+example: true

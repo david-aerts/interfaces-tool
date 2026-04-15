@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: notYetConsumed.schema.yaml
+title: notYetConsumed
+description: 'Ticket not yet consumed attribute'
+type: boolean
+example: false

@@ -1,0 +1,32 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: controlLocation.schema.yaml
+title: controlLocation
+description: Physical location details of the control location.
+type: object
+additionalProperties: false
+required:
+- roadName
+- kilometerPoint
+- postalCode
+- gpsCoordinates
+- sectionIdExt
+- sectionName
+- device
+- locality
+properties:
+  roadName:
+    $ref: ../../common/roadName.schema.yaml
+  kilometerPoint:
+    $ref: ../../common/kilometerPoint.schema.yaml
+  postalCode:
+    $ref: ../../common/postalCode.schema.yaml
+  gpsCoordinates:
+    $ref: ../../common/gpsCoordinates.schema.yaml
+  sectionIdExt:
+    $ref: ../../common/sectionIdExt.schema.yaml
+  sectionName:
+    $ref: ../../common/sectionName.schema.yaml
+  device:
+    $ref: ../../common/device.schema.yaml
+  locality:
+    $ref: ../../common/locality.schema.yaml

@@ -1,0 +1,16 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusFiscalPaymentStatus.schema.yaml
+title: statusFiscalPaymentStatus
+description: 'Fiscal Paymentt status.'
+type: object
+additionalProperties: false
+required:
+- value
+- start
+properties:
+  value:
+    $ref: ./statusFiscalPaymentValue.schema.yaml
+  start:
+    $ref: ../../common/time.schema.yaml
+  history:
+    $ref: ./statusFiscalPaymentHistory.schema.yaml

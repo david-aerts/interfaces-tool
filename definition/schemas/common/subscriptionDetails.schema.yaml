@@ -1,0 +1,26 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: subscriptionDetails.schema.yaml
+title: subscriptionDetails
+description: 'Subscription details'
+type: object
+additionalProperties: false
+required:
+- vehicleInformation
+- eetsProviderId
+- userId
+- exceptionListType
+- exceptionListReasonCode
+- exceptionValidityStart
+properties:
+  vehicleInformation:
+    $ref: ./characteristics.schema.yaml
+  eetsProviderId:
+    $ref: ./eetsProviderId.schema.yaml
+  userId:
+    $ref: ./userId.schema.yaml
+  exceptionListType:
+    $ref: ./exceptionListType.schema.yaml
+  exceptionListReasonCode:
+    $ref: ./exceptionListReasonCode.schema.yaml
+  exceptionValidityStart:
+    $ref: ./time.schema.yaml

@@ -1,0 +1,26 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: reference.schema.yaml
+title: reference
+description: 'Sanction reference'
+type: object
+additionalProperties: false
+required:
+- source
+- hashFull
+- hashShort
+- prefix
+- checksum
+- print
+properties:
+  source:
+    $ref: ./referenceSource.schema.yaml
+  hashFull:
+    $ref: ./referenceHashFull.schema.yaml
+  hashShort:
+    $ref: ./referenceHashShort.schema.yaml
+  prefix:
+    $ref: ./referencePrefix.schema.yaml
+  checksum:
+    $ref: ./referenceChecksum.schema.yaml
+  print:
+    $ref: ./referencePrint.schema.yaml

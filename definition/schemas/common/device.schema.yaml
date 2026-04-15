@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: device.schema.yaml
+title: device
+description: Device metadata identifying the equipment used for the control.
+type: object
+additionalProperties: false
+required:
+- id
+- type
+properties:
+  id:
+    $ref: ./deviceId.schema.yaml
+  type:
+    $ref: ./deviceType.schema.yaml

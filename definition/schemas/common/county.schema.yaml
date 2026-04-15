@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: county.schema.yaml
+title: county
+description: 'County'
+type: string
+example: Bas-Rhin

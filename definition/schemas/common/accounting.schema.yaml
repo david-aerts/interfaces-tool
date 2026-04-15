@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: accounting.schema.yaml
+title: accounting
+description: '[AI-written] Accounting data.'
+type: object
+additionalProperties: false
+required:
+- transactionId
+- transactionCode
+- transactionDate
+properties:
+  transactionId:
+    $ref: ./transactionId.schema.yaml
+  transactionCode:
+    $ref: ./transactionCode.schema.yaml
+  transactionDate:
+    $ref: ./transactionDate.schema.yaml

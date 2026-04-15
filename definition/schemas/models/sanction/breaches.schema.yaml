@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: breaches.schema.yaml
+title: breaches
+description: 'Breaches grouped into that Sanction'
+type: array
+items:
+  $ref: ../breach/breach.schema.yaml

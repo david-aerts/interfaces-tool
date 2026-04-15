@@ -1,0 +1,41 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: vehicleOwner.schema.yaml
+title: vehicleOwner
+description: Selected vehicle owner who should pay for the sanction.
+type: object
+additionalProperties: false
+required:
+- type
+- details
+- contact
+- address
+properties:
+  type:
+    $ref: ./vehicleOwnerType.schema.yaml
+  details:
+    $ref: ../../common/details.schema.yaml
+  contact:
+    $ref: ../../common/contact.schema.yaml
+  address:
+    $ref: ../../common/address.schema.yaml
+allOf:
+- if:
+    properties:
+      type:
+        const: PERSON
+    required:
+    - type
+  then:
+    properties:
+      details:
+        $ref: ../../common/personDetails.schema.yaml
+- if:
+    properties:
+      type:
+        const: COMPANY
+    required:
+    - type
+  then:
+    properties:
+      details:
+        $ref: ../../common/companyDetails.schema.yaml

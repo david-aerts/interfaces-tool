@@ -1,0 +1,29 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exemptionAddress.schema.yaml
+title: exemptionAddress
+description: 'Address of exemption'
+type: object
+additionalProperties: false
+required:
+- companyName
+- street
+- houseNumber
+- postalCode
+- city
+- countryCode
+- location
+properties:
+  companyName:
+    $ref: ./companyName.schema.yaml
+  street:
+    $ref: ./street.schema.yaml
+  houseNumber:
+    $ref: ./houseNumber.schema.yaml
+  postalCode:
+    $ref: ./postalCode.schema.yaml
+  city:
+    $ref: ./city.schema.yaml
+  countryCode:
+    $ref: ./countryCode.schema.yaml
+  location:
+    $ref: ./gpsCoordinates.schema.yaml

@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: lock.schema.yaml
+title: lock
+description: Lock metadata used to control concurrent access to the object.
+type: object
+additionalProperties: false
+required:
+- ownerId
+- source
+- until
+- count
+properties:
+  ownerId:
+    $ref: ./ownerId.schema.yaml
+  source:
+    $ref: ./sourceLock.schema.yaml
+  until:
+    $ref: ./time.schema.yaml
+  count:
+    $ref: ./count.schema.yaml

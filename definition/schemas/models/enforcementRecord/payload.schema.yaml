@@ -1,0 +1,38 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: payload.schema.yaml
+title: payload
+description: The business payload
+type: object
+additionalProperties: false
+required:
+- passageId
+- passageTime
+- controlLocation
+- sensors
+- images
+- manuallyReviewed
+- enforcementResources
+properties:
+  createdAt:
+    $ref: ../../common/time.schema.yaml
+  updatedAt:
+    $ref: ../../common/time.schema.yaml
+  status:
+    $ref: ./statuses.schema.yaml
+  lock:
+    $ref: ../../common/lock.schema.yaml
+  passageId:
+    $ref: ../../common/passageId.schema.yaml
+  passageTime:
+    $ref: ../../common/time.schema.yaml
+  controlLocation:
+    $ref: ./controlLocation.schema.yaml
+  sensors:
+    $ref: ./sensors.schema.yaml
+  images:
+    $ref: ../../common/images.schema.yaml
+  manuallyReviewed:
+    $ref: ../../common/manuallyReviewed.schema.yaml
+  enforcementResources:
+    $ref: ./enforcementResources.schema.yaml
+

@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: registrationNumber.schema.yaml
+title: registrationNumber
+description: '[AI-written] Company registration number.'
+type: string
+example: REG-123456

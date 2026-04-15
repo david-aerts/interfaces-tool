@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: period.schema.yaml
+title: period
+description: 'Values affected by a business period'
+type: object
+additionalProperties: false
+required:
+- applicableUntil
+- length
+- distance
+- worstVehicleCharacteristics
+properties:
+  applicableUntil:
+    $ref: ./periodApplicableUntil.schema.yaml
+  length:
+    $ref: ./periodLength.schema.yaml
+  distance:
+    $ref: ./periodDistance.schema.yaml
+  worstVehicleCharacteristics:
+    $ref: ../../common/characteristics.schema.yaml

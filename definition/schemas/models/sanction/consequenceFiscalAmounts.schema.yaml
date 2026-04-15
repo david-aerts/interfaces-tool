@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: consequenceFiscalAmounts.schema.yaml
+title: consequenceFiscalAmounts
+description: 'Fiscal consequence amounts.'
+type: object
+additionalProperties: false
+required:
+- total
+- split
+properties:
+  total:
+    $ref: ./consequenceFiscalAmountsTotal.schema.yaml
+  split:
+    $ref: ./consequenceFiscalAmountsSplit.schema.yaml

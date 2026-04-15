@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: sensors.schema.yaml
+title: sensors
+description: Sensor outputs collected for the controlled vehicle.
+type: object
+additionalProperties: false
+required:
+- licencePlates
+- dsrcReadings
+- qualification
+properties:
+  licencePlates:
+    $ref: ../../common/licencePlates.schema.yaml
+  dsrcReadings:
+    $ref: ./dsrcReadings.schema.yaml
+  qualification:
+    $ref: ./qualification.schema.yaml

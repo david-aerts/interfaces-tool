@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: accountingTransactionDate.schema.yaml
+title: accountingTransactionDate
+description: 'Accounting transaction date.'
+allOf:
+- $ref: ../../common/time.schema.yaml

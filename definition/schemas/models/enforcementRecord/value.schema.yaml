@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: value.schema.yaml
+title: value
+description: Enforcement Record main status
+type: string
+enum:
+- PENDING
+- ACCEPTED
+- REJECTED
+- ERROR
+example: ACCEPTED

@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: totalElements.schema.yaml
+title: totalElements
+description: The total number of elements (non-paginated) in the selected list, so after filtering.
+type: integer
+minimum: 0
+example: 100

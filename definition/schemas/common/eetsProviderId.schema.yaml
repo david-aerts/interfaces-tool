@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: eetsProviderId.schema.yaml
+title: eetsProviderId
+description: Identifier of the EETS provider associated with the on-board unit.
+type: object
+additionalProperties: false
+required:
+- countryCode
+- providerIdentifier
+properties:
+  countryCode:
+    $ref: ./countryCode.schema.yaml
+  providerIdentifier:
+    $ref: ./providerIdentifier.schema.yaml

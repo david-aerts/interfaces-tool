@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exemptionAttributes.schema.yaml
+title: exemptionAttributes
+description: 'Exemption attributes'
+type: object
+additionalProperties: false
+required:
+- rightLocation
+- rightDeclaration
+properties:
+  rightLocation:
+    $ref: ./rightLocation.schema.yaml
+  rightDeclaration:
+    $ref: ./rightDeclaration.schema.yaml

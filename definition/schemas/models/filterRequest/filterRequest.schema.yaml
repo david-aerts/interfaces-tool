@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: filterRequest.schema.yaml
+title: filterRequest
+description: Generic data structure used to describe how a dataset should be filtered, sorted and paginated.
+type: object
+additionalProperties: false
+properties:
+  page:
+    $ref: "./page.schema.yaml"
+  pageSize:
+    $ref: "./pageSize.schema.yaml"
+  sortBy:
+    $ref: "./sortBy.schema.yaml"
+  sortDir:
+    $ref: "./sortDir.schema.yaml"
+  filters:
+    $ref: "./filters.schema.yaml"

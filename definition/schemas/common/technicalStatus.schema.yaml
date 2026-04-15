@@ -1,0 +1,10 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: technicalStatus.schema.yaml
+title: technicalStatus
+description: 'Control outcome technical status'
+type: string
+enum:
+- WRONG_DECLARATION
+- WRONG_DECLARATION_AND_LOCATION
+- WRONG_DECLARATION_AND_OUT_OF_EXEMPTION_BOUNDS
+example: WRONG_DECLARATION_AND_LOCATION

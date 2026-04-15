@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: passageId.schema.yaml
+title: passageId
+description: Passage identifier, should be used for de-duplication.
+type: string
+format: uuid
+example: 550e8400-e29b-41d4-a716-446655440000

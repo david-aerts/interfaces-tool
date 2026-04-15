@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: pan.schema.yaml
+title: pan
+description: Personal account number on the OBU
+type: string
+pattern: ^(?:\d{19}F|\d{18}F{2}|\d{17}F{3}|\d{16}F{4}|\d{15}F{5}|\d{14}F{6}|\d{13}F{7}|\d{12}F{8}|\d{11}F{9}|\d{10}F{10})$
+example: 1234567890123FFFFFFF

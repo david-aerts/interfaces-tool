@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: exemptionRadius.schema.yaml
+title: exemptionRadius
+description: 'Exemption radius'
+type: integer
+minimum: 1
+example: 20000

@@ -1,0 +1,15 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusFiscalPaymentClaimValue.schema.yaml
+title: statusFiscalPaymentClaimValue
+description: Fiscal Payment Claim status value.
+type: string
+enum:
+- NONE
+- SENT_TO_POST_SERVICE
+- SENT_TO_RECIPIENT
+- REMINDER_SENT_TO_POST_SERVICE
+- REMINDER_SENT_RECIPIENT
+- REMINDER_RECEIVED_BY_RECIPIENT
+- REMINDER_RETURNED
+- REMINDER_PROOF_SAVED
+example: NONE

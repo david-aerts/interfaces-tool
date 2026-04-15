@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: fGwReference.schema.yaml
+title: fGwReference
+description: File Gateway reference pointing to the file.
+type: object
+additionalProperties: false
+required:
+- storageName
+- key
+properties:
+  storageName:
+    $ref: ./storageName.schema.yaml
+  key:
+    $ref: ./key.schema.yaml

@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: subscriptionRightDeclaration.schema.yaml
+title: subscriptionRightDeclaration
+description: 'Subscription right declaration attribute'
+type: boolean
+example: true

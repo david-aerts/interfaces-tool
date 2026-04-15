@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: contact.schema.yaml
+title: contact
+description: 'Vehicle owner contact data.'
+type: object
+additionalProperties: false
+properties:
+  email:
+    $ref: ./email.schema.yaml
+  language:
+    $ref: ./language.schema.yaml

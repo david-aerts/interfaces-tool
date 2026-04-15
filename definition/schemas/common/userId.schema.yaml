@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: userId.schema.yaml
+title: userId
+description: 'EETS User ID'
+type: object
+additionalProperties: false
+required:
+- pan
+- licencePlate
+- obeId
+properties:
+  pan:
+    $ref: ./pan.schema.yaml
+  licencePlate:
+    $ref: ./licencePlate.schema.yaml
+  obeId:
+    $ref: ./obeId.schema.yaml

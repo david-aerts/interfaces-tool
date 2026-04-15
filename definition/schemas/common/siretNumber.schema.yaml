@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: siretNumber.schema.yaml
+title: siretNumber
+description: '[AI-written] French SIRET number.'
+type: string
+pattern: ^\d{14}$
+example: '12345678901234'

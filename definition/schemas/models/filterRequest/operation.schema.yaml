@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: operation.schema.yaml
+title: operation
+description: The operation to perform (e.g., $eq, $gte, $lte, $in).
+type: string
+enum: ["$eq", "$ne", "$gt", "$gte", "$lt", "$lte", "$in", "$nin"]
+example: '$eq'

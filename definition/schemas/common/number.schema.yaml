@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: number.schema.yaml
+title: number
+description: Integer
+type: integer
+example: 1

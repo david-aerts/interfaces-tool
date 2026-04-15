@@ -1,0 +1,16 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: agentOverwritten.schema.yaml
+title: agentOverwritten
+description: 'If the Agent has overwritten control preview'
+type: object
+additionalProperties: false
+required:
+- operationType
+- manualControlId
+properties:
+  operationType:
+    $ref: ./operationType.schema.yaml
+  manualControlId:
+    $ref: ./manualControlId.schema.yaml
+  settlementMethod:
+    $ref: ./settlementMethod.schema.yaml

@@ -1,0 +1,7 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: statusMainHistory.schema.yaml
+title: statusMainHistory
+description: 'Main status history.'
+type: array
+items:
+  $ref: ./statusMainHistoryItem.schema.yaml

@@ -1,0 +1,6 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: key.schema.yaml
+title: key
+description: File path from the File GW storage
+type: string
+example: /my/folder/image_001.jpg
