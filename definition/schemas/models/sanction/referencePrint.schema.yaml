@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: referencePrint.schema.yaml
+$id: models-sanction-referencePrint
 title: referencePrint
 description: Reference to be printed on documents (PDF, ticket, etc).
 type: string

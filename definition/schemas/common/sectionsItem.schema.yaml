@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sectionsItem.schema.yaml
+$id: common-sectionsItem
 title: sectionsItem
 description: 'Section'
 type: integer

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: documentPostRequestId.schema.yaml
+$id: models-sanction-documentPostRequestId
 title: documentPostRequestId
 description: ' Post service request identifier.'
 type: string

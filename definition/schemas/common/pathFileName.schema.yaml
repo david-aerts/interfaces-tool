@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: pathFileName.schema.yaml
+$id: common-pathFileName
 title: pathFileName
 description: Not applicable for s3 destinations
 type:

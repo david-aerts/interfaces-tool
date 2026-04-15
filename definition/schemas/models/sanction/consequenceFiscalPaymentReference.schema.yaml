@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: consequenceFiscalPaymentReference.schema.yaml
+$id: models-sanction-consequenceFiscalPaymentReference
 title: consequenceFiscalPaymentReference
 description: ISO 11649 Structured Creditor Reference (bank transfer).
 type: string

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sourceId.schema.yaml
+$id: common-sourceId
 title: sourceId
 description: Single source trace identifier.
 type: string

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: images.schema.yaml
+$id: common-images
 title: images
 description: Evidence image metadata. Must contain at least one image, metadata only.
 type: array

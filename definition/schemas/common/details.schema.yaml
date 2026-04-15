@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: details.schema.yaml
+$id: common-details
 title: details
 description: 'Vehicle owner details.'
 type: object

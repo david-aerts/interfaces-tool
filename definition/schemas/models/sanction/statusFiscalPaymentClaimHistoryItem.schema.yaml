@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: statusFiscalPaymentClaimHistoryItem.schema.yaml
+$id: models-sanction-statusFiscalPaymentClaimHistoryItem
 title: statusFiscalPaymentClaimHistoryItem
 description: 'Fiscal Payment Claim status history item.'
 type: object

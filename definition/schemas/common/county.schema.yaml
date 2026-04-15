@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: county.schema.yaml
+$id: common-county
 title: county
 description: 'County'
 type: string

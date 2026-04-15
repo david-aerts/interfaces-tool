@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: adminSplitAmount.schema.yaml
+$id: common-adminSplitAmount
 title: adminSplitAmount
 description: '[AI-written] admin split amounts.'
 type: object

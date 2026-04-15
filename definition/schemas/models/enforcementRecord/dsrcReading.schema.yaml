@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: dsrcReading.schema.yaml
+$id: models-enforcementRecord-dsrcReading
 title: dsrcReading
 description: DSRC reading captured from an on-board unit.
 type: object

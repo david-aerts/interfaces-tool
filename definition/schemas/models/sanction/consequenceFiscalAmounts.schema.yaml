@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: consequenceFiscalAmounts.schema.yaml
+$id: models-sanction-consequenceFiscalAmounts
 title: consequenceFiscalAmounts
 description: 'Fiscal consequence amounts.'
 type: object

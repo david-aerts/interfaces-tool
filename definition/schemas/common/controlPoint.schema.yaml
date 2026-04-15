@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: controlPoint.schema.yaml
+$id: common-controlPoint
 title: controlPoint
 description: 'Information about the control point'
 type: object

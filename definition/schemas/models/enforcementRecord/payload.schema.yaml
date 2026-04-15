@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: payload.schema.yaml
+$id: models-enforcementRecord-payload
 title: payload
 description: The business payload
 type: object

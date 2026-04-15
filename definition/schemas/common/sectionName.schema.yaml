@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sectionName.schema.yaml
+$id: common-sectionName
 title: sectionName
 description: Section name of the Control Location
 type: string

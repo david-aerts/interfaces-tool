@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: subscriptionRightLpn.schema.yaml
+$id: common-subscriptionRightLpn
 title: subscriptionRightLpn
 description: 'Subscription right LPN attribute'
 type: boolean

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: filters.schema.yaml
+$id: models-filterRequest-filters
 title: filters
 description: A field name in the destination object that list should be filtered on. The key uses dot notation.
 type: object

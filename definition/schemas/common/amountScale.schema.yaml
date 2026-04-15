@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: amountScale.schema.yaml
+$id: common-amountScale
 title: amountScale
 description: '[AI-written] Monetary amount scale.'
 type: integer

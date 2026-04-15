@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: email.schema.yaml
+$id: common-email
 title: email
 description: '[AI-written] Email address.'
 type: string

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: documentPost.schema.yaml
+$id: models-sanction-documentPost
 title: documentPost
 description: '[AI-written] Post service metadata.'
 type: object

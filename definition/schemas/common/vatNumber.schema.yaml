@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: vatNumber.schema.yaml
+$id: common-vatNumber
 title: vatNumber
 description: '[AI-written] Company VAT number.'
 type: string

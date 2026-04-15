@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: breachGroupKeys.schema.yaml
+$id: models-sanction-breachGroupKeys
 title: breachGroupKeys
 description: Breach JSON keys used for grouping
 type: array

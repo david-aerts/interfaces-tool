@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: controlPreview.schema.yaml
+$id: common-controlPreview
 title: controlPreview
 description: 'The result of the automatic control outcome as returned by Sanctioning backend'
 type: object

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sourceIds.schema.yaml
+$id: common-sourceIds
 title: sourceIds
 description: In case of aggregation it must contain the traceIds of all aggregated messages
 type: array

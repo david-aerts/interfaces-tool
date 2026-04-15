@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: documentPdfCreatorReq.schema.yaml
+$id: models-sanction-documentPdfCreatorReq
 title: documentPdfCreatorReq
 description: Not documented here; request payload sent to PDF creator.
 type: object

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: time.schema.yaml
+$id: common-time
 title: time
 description: Time object including ISO and epoch formats
 type: object

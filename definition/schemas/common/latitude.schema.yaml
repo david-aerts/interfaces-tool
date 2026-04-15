@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: latitude.schema.yaml
+$id: common-latitude
 title: latitude
 description: Latitude, with a minimum of 5 digits decimal degrees of precision
 type: number

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: promotedSettlementMethod.schema.yaml
+$id: common-promotedSettlementMethod
 title: promotedSettlementMethod
 description: 'Promoted settlement method identifier'
 type: integer

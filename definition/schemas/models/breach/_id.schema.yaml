@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: _id.schema.yaml
+$id: models-breach-_id
 title: _id
 description: 'the breach internal id'
 type: string

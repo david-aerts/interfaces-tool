@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: vehicleOwnerType.schema.yaml
+$id: models-sanction-vehicleOwnerType
 title: vehicleOwnerType
 description: 'Owner type.'
 type: string

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: referenceSource.schema.yaml
+$id: models-sanction-referenceSource
 title: referenceSource
 description: Source string for the hash function (contains LPN/country and enforcedAt
   epoch ms).

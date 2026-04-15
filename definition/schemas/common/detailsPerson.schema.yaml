@@ -1,6 +1,6 @@
 
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: detailsPerson.schema.yaml
+$id: common-detailsPerson
 title: detailsPerson
 description: 'Company vehicle owner details.'
 allOf:

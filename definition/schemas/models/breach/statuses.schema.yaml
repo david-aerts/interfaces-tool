@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: statuses.schema.yaml
+$id: models-breach-statuses
 title: statuses
 description: Collection of status information associated with the object.
 type: object

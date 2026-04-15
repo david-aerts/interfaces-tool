@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: statusMainHistoryItem.schema.yaml
+$id: models-sanction-statusMainHistoryItem
 title: statusMainHistoryItem
 description: 'Main status history item.'
 type: object

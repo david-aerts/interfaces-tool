@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: breach.schema.yaml
+$id: models-breach-breach
 title: breach
 description: 'breach'
 type: object

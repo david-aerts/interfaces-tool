@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: subscriptionRightDeclaration.schema.yaml
+$id: common-subscriptionRightDeclaration
 title: subscriptionRightDeclaration
 description: 'Subscription right declaration attribute'
 type: boolean

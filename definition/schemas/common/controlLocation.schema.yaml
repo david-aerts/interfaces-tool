@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: controlLocation.schema.yaml
+$id: common-controlLocation
 title: controlLocation
 description: Physical location details of the control location.
 type: object

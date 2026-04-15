@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sourceLock.schema.yaml
+$id: common-sourceLock
 title: sourceLock
 description: Unique name of the application which is creating the message.
 type: string

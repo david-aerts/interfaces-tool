@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: host.schema.yaml
+$id: common-host
 title: host
 description: The host
 type:

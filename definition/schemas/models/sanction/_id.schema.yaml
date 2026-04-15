@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: _id.schema.yaml
+$id: models-sanction-_id
 title: _id
 description: Identifier of the sanction
 type: string

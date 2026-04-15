@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: statusHistory.schema.yaml
+$id: models-enforcementRecord-statusHistory
 title: statusHistory
 description: Historical status entry with a validity period.
 type: object

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: consequenceFiscalDocuments.schema.yaml
+$id: models-sanction-consequenceFiscalDocuments
 title: consequenceFiscalDocuments
 description: 'Fiscal consequence documents.'
 type: array

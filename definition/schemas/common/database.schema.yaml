@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: database.schema.yaml
+$id: common-database
 title: database
 description: The database
 type:

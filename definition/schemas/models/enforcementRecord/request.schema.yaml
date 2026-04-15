@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: request.schema.yaml
+$id: models-enforcementRecord-request
 title: request
 description: This should be the exact request data structure as sent to the related interface.
 type: object

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: deviceId.schema.yaml
+$id: common-deviceId
 title: deviceId
 description: The unique identifier of the device
 type: string

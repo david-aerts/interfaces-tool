@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: filterRequest.schema.yaml
+$id: models-filterRequest-filterRequest
 title: filterRequest
 description: Generic data structure used to describe how a dataset should be filtered, sorted and paginated.
 type: object

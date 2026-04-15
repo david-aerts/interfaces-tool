@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: technicalStatus.schema.yaml
+$id: common-technicalStatus
 title: technicalStatus
 description: 'Control outcome technical status'
 type: string

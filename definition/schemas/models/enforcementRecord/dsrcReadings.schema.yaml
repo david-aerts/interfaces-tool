@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: dsrcReadings.schema.yaml
+$id: models-enforcementRecord-dsrcReadings
 title: dsrcReadings
 description: List of DSRC readings done for obus detected in the vehicle
 type: array

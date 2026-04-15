@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: enforcementRecord.schema.yaml
+$id: models-enforcementRecord-enforcementRecord
 title: enforcementRecord
 description: Full enforcement record enriched by Sanctioning during ingestion
 type: object

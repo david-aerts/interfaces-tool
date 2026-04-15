@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: referenceChecksum.schema.yaml
+$id: models-sanction-referenceChecksum
 title: referenceChecksum
 description: Checksum for the portal to validate the reference
 type: integer

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: obuSubscriptionTechnicalStatus.schema.yaml
+$id: common-obuSubscriptionTechnicalStatus
 title: obuSubscriptionTechnicalStatus
 description: 'Subscription technical status attribute'
 type: boolean

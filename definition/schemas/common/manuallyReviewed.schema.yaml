@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: manuallyReviewed.schema.yaml
+$id: common-manuallyReviewed
 title: manuallyReviewed
 description: True if the case was reviewed by an operator, false otherwise
 type: boolean

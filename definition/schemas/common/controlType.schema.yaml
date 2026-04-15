@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: controlType.schema.yaml
+$id: common-controlType
 title: controlType
 description: 'The type of control'
 type: string

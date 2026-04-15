@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: image.schema.yaml
+$id: common-image
 title: image
 description: Image metadata attached.
 type: object

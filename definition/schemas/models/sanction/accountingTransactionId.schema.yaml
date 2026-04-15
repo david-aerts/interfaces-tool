@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: accountingTransactionId.schema.yaml
+$id: models-sanction-accountingTransactionId
 title: accountingTransactionId
 description: 'Accounting transaction identifier.'
 type: integer

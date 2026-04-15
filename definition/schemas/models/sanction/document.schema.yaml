@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: document.schema.yaml
+$id: models-sanction-document
 title: document
 description: '[AI-written] Fiscal document metadata.'
 type: object

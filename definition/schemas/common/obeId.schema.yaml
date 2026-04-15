@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: obeId.schema.yaml
+$id: common-obeId
 title: obeId
 description: Identifier of the on-board equipment, including equipment ID and manufacturer ID.
 type: object

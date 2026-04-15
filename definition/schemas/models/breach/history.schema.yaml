@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: history.schema.yaml
+$id: models-breach-history
 title: history
 description: 'Status history'
 type: array

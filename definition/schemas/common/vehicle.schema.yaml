@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: vehicle.schema.yaml
+$id: common-vehicle
 title: vehicle
 description: 'Vehicle'
 type: object

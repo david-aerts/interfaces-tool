@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: countryCode.schema.yaml
+$id: common-countryCode
 title: countryCode
 description: Country code in ISO 3166-1 alpha-2 format
 type: string

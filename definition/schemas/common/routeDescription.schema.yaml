@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: routeDescription.schema.yaml
+$id: common-routeDescription
 title: routeDescription
 description: 'Description of the route'
 type:

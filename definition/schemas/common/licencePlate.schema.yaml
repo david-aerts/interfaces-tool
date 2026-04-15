@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: licencePlate.schema.yaml
+$id: common-licencePlate
 title: licencePlate
 description: Vehicle licence plate identification data.
 type: object

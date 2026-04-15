@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: controlDistanceFromCenter.schema.yaml
+$id: common-controlDistanceFromCenter
 title: controlDistanceFromCenter
 description: 'The distance between the center of exemption and the control location'
 type: integer

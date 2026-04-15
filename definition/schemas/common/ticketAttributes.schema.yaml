@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: ticketAttributes.schema.yaml
+$id: common-ticketAttributes
 title: ticketAttributes
 description: 'Ticket control outcome attributes'
 type: object

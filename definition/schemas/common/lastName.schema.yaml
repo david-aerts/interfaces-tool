@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: lastName.schema.yaml
+$id: common-lastName
 title: lastName
 description: '[AI-written] Person last name.'
 type: string

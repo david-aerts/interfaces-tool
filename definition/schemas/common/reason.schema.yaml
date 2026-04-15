@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: reason.schema.yaml
+$id: common-reason
 title: reason
 description: 'Legal case reason'
 type: string

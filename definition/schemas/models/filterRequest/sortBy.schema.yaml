@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: sortBy.schema.yaml
+$id: models-filterRequest-sortBy
 title: sortBy
 description: Name of the field used for sorting (supports dot notation).
 type: string

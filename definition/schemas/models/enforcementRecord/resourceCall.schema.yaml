@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: resourceCall.schema.yaml
+$id: models-enforcementRecord-resourceCall
 title: resourceCall
 description: Request and response exchanged with an external resource.
 type: object

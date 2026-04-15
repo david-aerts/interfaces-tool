@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: traceId.schema.yaml
+$id: common-traceId
 title: traceId
 description: Business object trace Id. Must be unique.
 type: string

@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: proposedVehicleOwners.schema.yaml
+$id: models-sanction-proposedVehicleOwners
 title: proposedVehicleOwners
 description: List of vehicle owners detected as candidates by Sanctioning.
 type: array

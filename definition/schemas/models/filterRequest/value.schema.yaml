@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: value.schema.yaml
+$id: models-filterRequest-value
 title: value
 description: The value to compare against.
 type: ["string", "number", "boolean", "array"]

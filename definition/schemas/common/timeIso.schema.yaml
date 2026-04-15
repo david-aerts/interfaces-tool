@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: timeIso.schema.yaml
+$id: common-timeIso
 title: timeIso
 description: ISO-8601 timestamp with UTC timezone.
 type: string

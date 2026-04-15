@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: characteristics.schema.yaml
+$id: common-characteristics
 title: characteristics
 description: 'Vehicle characteristics.'
 type: object

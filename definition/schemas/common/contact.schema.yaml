@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: contact.schema.yaml
+$id: common-contact
 title: contact
 description: 'Vehicle owner contact data.'
 type: object

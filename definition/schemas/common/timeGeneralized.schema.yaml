@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: timeGeneralized.schema.yaml
+$id: common-timeGeneralized
 title: timeGeneralized
 description: Timestamp in GeneralizedTime format. Creation time when the application is creating the message. Ex 20250718152345.123Z
 type: string

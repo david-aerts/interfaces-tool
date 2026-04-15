@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: statusOwnerInformationStatus.schema.yaml
+$id: models-sanction-statusOwnerInformationStatus
 title: statusOwnerInformationStatus
 description: 'Owner information status.'
 type: object

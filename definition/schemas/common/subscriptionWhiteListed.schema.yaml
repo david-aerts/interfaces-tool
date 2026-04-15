@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: subscriptionWhiteListed.schema.yaml
+$id: common-subscriptionWhiteListed
 title: subscriptionWhiteListed
 description: 'Subscription white listed attribute'
 type: boolean

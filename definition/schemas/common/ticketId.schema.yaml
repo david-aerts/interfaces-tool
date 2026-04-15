@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: ticketId.schema.yaml
+$id: common-ticketId
 title: ticketId
 description: 'Ticket identifier'
 type: string

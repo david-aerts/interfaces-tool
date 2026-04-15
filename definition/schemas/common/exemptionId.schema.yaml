@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: exemptionId.schema.yaml
+$id: common-exemptionId
 title: exemptionId
 description: 'Exemption identifier'
 type: string

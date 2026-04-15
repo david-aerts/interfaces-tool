@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: radiusTolerance.schema.yaml
+$id: common-radiusTolerance
 title: radiusTolerance
 description: 'Exemption radius tolerance'
 type: integer

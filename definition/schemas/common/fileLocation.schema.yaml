@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: fileLocation.schema.yaml
+$id: common-fileLocation
 title: fileLocation
 description: Physical or logical location metadata describing where the file is stored on the File Gateway.
 type: object

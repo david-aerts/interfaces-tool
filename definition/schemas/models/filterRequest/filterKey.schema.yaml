@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: filterKey.schema.yaml
+$id: models-filterRequest-filterKey
 title: filterKey
 description: Field name using dot notation
 type: string
